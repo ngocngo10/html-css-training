@@ -11,44 +11,45 @@
 <body>
   <fieldset>
     <legend>Information</legend>
-  <form action="http://www.example.com/subscribe.php" method="post">
-    <label for="username">Username: </label>
-    <input type="text" name="username" id="username" size="15" maxlength="50" required="required"><br><br>
-    <label for="password">Password: </label>
-    <input type="password" name="password" id="password" size="15" maxlength="50" required="required"><br><br>
-    <label for="description">Description: </label>
-    <textarea name="description" id="description" cols="20" rows="5"></textarea><br><br>
-    <label for="gender">Gender: </label>
-    <input type="radio" name="gender" id="male" value="male" checked="checked">
-    <label for="male">Male</label>
-    <input type="radio" name="gender" id="female" value="female">
-    <label for="female">Female</label><br><br>
-    <label for="hobbies">Hobbies: </label>
-    <input type="checkbox" name="hobbies" id="music" value="music">
-    <label for="music">Music</label>
-    <input type="checkbox" name="hobbies" id="sport" value="sport">
-    <label for="sport">Sport</label>
-    <input type="checkbox" name="hobbies" id="camping" value="camping">
-    <label for="camping">Camping</label><br><br>
-    <label for="birth-year">Year of Birth: </label>
-    <select name="birth-year" id="birth-year" size="2">
-      <option value="1999">1999</option>
-      <option value="2000">2000</option>
-      <option value="2001">2001</option>
-      <option value="2002">2002</option>
-    </select>
-    <br><br>
-    <label for="profile">Profile: </label>
-    <input type="file" name="profile" id="profile"><br><br>
-    <!-- <input type="submit" id="subscribe" value="Subscribe"> -->
-    <!-- <input type="image" src="images/subscribe_button.png" alt="Subscribe Button" height="100" width="100"> -->
-    <input type="hidden" name="phone-number" value="12345678">
-    <button type="button" onclick="alert('This button does nothing.')">Click me for no reason!</button>
-    <button type="reset">Reset</button>
-    <button type="submit">Subcribe</button>
-  </form>
-</fieldset>
+    <form action="http://www.example.com/subscribe.php" method="post">
+      <label for="username">Username: </label>
+      <input type="text" name="username" id="username" size="15" maxlength="50" required="required"><br><br>
+      <label for="password">Password: </label>
+      <input type="password" name="password" id="password" size="15" maxlength="50" required="required"><br><br>
+      <label for="description">Description: </label>
+      <textarea name="description" id="description" cols="20" rows="5"></textarea><br><br>
+      <label for="gender">Gender: </label>
+      <input type="radio" name="gender" id="male" value="male" checked="checked">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female">
+      <label for="female">Female</label><br><br>
+      <label for="hobbies">Hobbies: </label>
+      <input type="checkbox" name="hobbies" id="music" value="music">
+      <label for="music">Music</label>
+      <input type="checkbox" name="hobbies" id="sport" value="sport">
+      <label for="sport">Sport</label>
+      <input type="checkbox" name="hobbies" id="camping" value="camping">
+      <label for="camping">Camping</label><br><br>
+      <label for="birth-year">Year of Birth: </label>
+      <select name="birth-year" id="birth-year" size="2">
+        <option value="1999">1999</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+      </select>
+      <br><br>
+      <label for="profile">Profile: </label>
+      <input type="file" name="profile" id="profile"><br><br>
+      <label for="start">Start date:</label>
+      <input type="date" id="start" name="trip-start" value="2018-07-22">
+      <!-- <input type="submit" id="subscribe" value="Subscribe"> -->
+      <!-- <input type="image" src="images/subscribe_button.png" alt="Subscribe Button" height="100" width="100"> -->
+      <input type="hidden" name="phone-number" value="12345678">
+      <button type="button" onclick="alert('This button does nothing.')">Click me for no reason!</button>
+      <button type="reset">Reset</button>
+      <button type="submit">Subcribe</button>
+    </form>
+  </fieldset>
 </body>
 
 </html>
-
