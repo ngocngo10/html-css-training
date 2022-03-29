@@ -10,8 +10,35 @@
 
 <body>
   <form action="http://www.example.com/subscribe.php" method="post">
-    <label for="name">Tên đăng nhập: </label>
-    <input type="text" name="name" id="name" size="15" maxlength="50">
+    <label for="username">Username: </label>
+    <input type="text" name="username" id="username" size="15" maxlength="50"><br><br>
+    <label for="password">Password: </label>
+    <input type="password" name="password" id="password" size="15" maxlength="50"><br><br>
+    <label for="description">Description: </label>
+    <textarea name="description" id="description" cols="20" rows="5"></textarea><br><br>
+    <label for="gender">Gender: </label>
+    <input type="radio" name="gender" id="male" value="male" checked="checked">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label><br><br>
+    <label for="hobbies">Hobbies: </label>
+    <input type="checkbox" name="hobbies" id="music" value="music">
+    <label for="music">Music</label>
+    <input type="checkbox" name="hobbies" id="sport" value="sport">
+    <label for="sport">Sport</label>
+    <input type="checkbox" name="hobbies" id="camping" value="camping">
+    <label for="camping">Camping</label><br><br>
+    <label for="birth-year">Year of Birth: </label>
+    <select name="birth-year" id="birth-year" size="1">
+      <opion value="1999">1999</opion>
+      <opion value="2000">2000</opion>
+      <opion value="2001">2001</opion>
+      <opion value="2002">2002</opion>
+    </select>
+    <br><br>
+    <label for="profile">Profile: </label>
+    <input type="file" name="profile" id="profile"><br><br>
+    <input type="submit" id="subscribe" value="Subscribe">
   </form>
 </body>
 
