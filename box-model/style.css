@@ -1,16 +1,39 @@
-
-h3 {
-  background-color: cyan;
-  padding: 110px 50px 50px 110px;
+/* A universal selector */
+* {
+  color: hotpink;
 }
-h4 {
-  background-color: lime;
-  padding: 20px 50px;
+/* Class selector */
+.my-class {
+  color: red;
 }
-div {
-  border: 0.5rem outset pink;
-  outline: 0.5rem solid khaki;
-  box-shadow: 0 0 0 2rem skyblue;
-  margin: 5rem;
-  padding: 1rem;
+/* ID selector */
+#rad {
+  border: 1px solid blue;
+}
+/* Type selector */
+span {
+  background-color: skyblue;
+}
+/* Attribute selector */
+[data-type='primary'] {
+  color: black;
+}
+/* A href that contains "example.com" */
+[href*='example.com'] {
+  color: red;
+}
+/* A href that starts with https */
+[href^='https'] {
+  color: green;
+}
+/* A href that ends with .com */
+[href$='.com'] {
+  color: rgb(255, 60, 0);
+}
+/* Grouping selectors */
+strong,
+em,
+.my-class,
+[lang] {
+  color: red;
 }
