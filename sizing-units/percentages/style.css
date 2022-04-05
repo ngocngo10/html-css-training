@@ -1,0 +1,38 @@
+/* div {
+	width: 300px;
+	height: 100px;
+}
+
+div p {
+	width: 50%; 
+}
+
+* {
+  box-sizing: content-box;
+}
+div, p {
+  border: 1px solid var(--color-stroke);
+padding: 0.25rem;
+} */
+div {
+  width: 300px;
+  height: 100px;
+}
+
+div p {
+  margin-top: 50%;
+  /* calculated: 150px */
+  padding-left: 50%;
+  /* calculated: 150px */
+}
+
+
+/* Presentation styles */
+div, p {
+  border: 1px solid red;
+  padding: 0.25rem;
+}
+
+* {
+  box-sizing: content-box;
+}
