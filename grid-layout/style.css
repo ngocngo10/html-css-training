@@ -18,3 +18,30 @@ body {
   /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
   margin-bottom: 2em;   
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 5em 100px 30%;
+  grid-template-rows: 200px auto;
+  gap: 10px;
+}
+
+.item {
+  background-color: blueviolet;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-column-gap: 10px;
+}
+
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+} */
+
+.column {
+  background-color: brown;
+}
