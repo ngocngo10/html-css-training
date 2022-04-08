@@ -1,0 +1,62 @@
+.container {
+  width: 250px;
+  box-sizing: content-box;
+}
+
+.my-element {
+  margin: 20%;
+}
+
+/* presentational styles */
+
+.container {
+  background: red;
+  border: 1px solid royalblue;
+}
+
+.my-element {
+  border: 1px solid royalblue;
+  background: white;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.container-1 {
+  display: flex;
+  gap: 1rem;
+  border: 2px solid black;
+}
+
+.box {
+  background-color:darkgray;
+}
+
+.box:nth-child(3) {
+  margin-inline-start: auto;
+}
+
+.overlap-element {
+  margin-top: 12px;
+}
+
+/* presentational styles */
+
+p {
+  max-width: 400px;
+  padding: 2em;
+  background: var(--color-primary-x-light);
+  border: 1px solid black;
+}
+
+.overlap-element {
+  background: hsl(20 92% 95% / 60%);
+  border-color: var(--color-mid);
+}
+
+h1 {
+	margin-bottom: 2rem;
+}
+
+p {
+	margin-top: 3rem;
+}
