@@ -23,3 +23,16 @@ h1 {
   /* right: 0;
   left: 0; */
 }
+
+.content {
+  height: 1000px;
+}
+
+.header {
+  height: 42px;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
