@@ -28,7 +28,7 @@
 }
 
 .box {
-  background-color:darkgray;
+  background-color: darkgray;
 }
 
 .box:nth-child(3) {
@@ -54,18 +54,19 @@ p {
 }
 
 h1 {
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 p {
-	margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .container-2 {
   background: #ccc;
   width: 200px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
+
 .square {
   margin: 30px;
   height: 50px;
@@ -76,4 +77,28 @@ p {
   margin: 20px;
   height: 50px;
   background: blueviolet;
+}
+
+.content-box, .border-box  {
+  width: 160px;
+  height: 80px;
+  padding: 20px;
+  border: 8px solid red;
+  background: yellow;
+}
+
+.content-box {
+  box-sizing: content-box;
+  /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
+     Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
+     Content box width: 160px
+     Content box height: 80px */
+}
+
+.border-box {
+  box-sizing: border-box;
+  /* Total width: 160px
+     Total height: 80px
+     Content box width: 160px - (2 * 20px) - (2 * 8px) = 104px
+     Content box height: 80px - (2 * 20px) - (2 * 8px) = 24px */
 }
