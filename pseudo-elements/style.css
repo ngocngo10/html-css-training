@@ -1,0 +1,13 @@
+h1 {
+  position: relative;
+  padding-left: 20px;
+}
+h1::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 8px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid green;
+}
