@@ -1,8 +1,8 @@
-a:hover {
+/* a:hover {
   background: black;
   color: white;
   text-decoration: none;
-}
+} */
 
 p {
   font-size: 1.3em;
@@ -75,3 +75,20 @@ p:target::before {
 p:target i {
   color: red;
 }
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: yellow;
+}
+
