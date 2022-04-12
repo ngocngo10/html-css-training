@@ -1,0 +1,104 @@
+.container {
+  width: 250px;
+  box-sizing: content-box;
+}
+
+.my-element {
+  margin: 20%;
+}
+
+/* presentational styles */
+
+.container {
+  background: red;
+  border: 1px solid royalblue;
+}
+
+.my-element {
+  border: 1px solid royalblue;
+  background: white;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.container-1 {
+  display: flex;
+  gap: 1rem;
+  border: 2px solid black;
+}
+
+.box {
+  background-color: darkgray;
+}
+
+.box:nth-child(3) {
+  margin-inline-start: auto;
+}
+
+.overlap-element {
+  margin-top: 12px;
+}
+
+/* presentational styles */
+
+p {
+  max-width: 400px;
+  padding: 2em;
+  background: var(--color-primary-x-light);
+  border: 1px solid black;
+}
+
+.overlap-element {
+  background: hsl(20 92% 95% / 60%);
+  border-color: var(--color-mid);
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-top: 3rem;
+}
+
+.container-2 {
+  background: #ccc;
+  width: 200px;
+  margin-top: 50px;
+}
+
+.square {
+  margin: 30px;
+  height: 50px;
+  background: #f0f;
+}
+
+.collapses {
+  margin: 20px;
+  height: 50px;
+  background: blueviolet;
+}
+
+.content-box, .border-box  {
+  width: 160px;
+  height: 80px;
+  padding: 20px;
+  border: 8px solid red;
+  background: yellow;
+}
+
+.content-box {
+  box-sizing: content-box;
+  /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
+     Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
+     Content box width: 160px
+     Content box height: 80px */
+}
+
+.border-box {
+  box-sizing: border-box;
+  /* Total width: 160px
+     Total height: 80px
+     Content box width: 160px - (2 * 20px) - (2 * 8px) = 104px
+     Content box height: 80px - (2 * 20px) - (2 * 8px) = 24px */
+}
