@@ -1,0 +1,77 @@
+a:hover {
+  background: black;
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+.button:active {
+  transform: scale(0.99);
+  box-shadow: none;
+}
+
+.red-input:focus {
+  background: yellow;
+  color: red;
+}
+
+.blue-input:focus {
+  background: yellow;
+  color: blue;
+}
+
+form {
+  border: 1px solid;
+  color: gray;
+  padding: 4px;
+}
+
+form:focus-within {
+  background: #ff8;
+  color: black;
+}
+
+input {
+  margin: 4px;
+}
+
+input, button {
+  margin: 10px;
+}
+
+.focus-only:focus {
+  outline: 2px solid black;
+}
+
+.focus-visible-only:focus-visible {
+  outline: 4px dashed darkorange;
+}
+
+button:focus {
+	outline: none;
+}
+
+button:focus-visible {
+	outline: 2px dashed blue;
+  outline-offset: 2px;
+}
+
+p:target {
+  background-color: gold;
+}
+
+/* Add a pseudo-element inside the target element */
+p:target::before {
+  font: 70% sans-serif;
+  content: "►";
+  color: limegreen;
+  margin-right: .25em;
+}
+
+/* Style italic elements within the target element */
+p:target i {
+  color: red;
+}
