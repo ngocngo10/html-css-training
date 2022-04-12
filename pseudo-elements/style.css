@@ -28,3 +28,46 @@ h1::before {
   color: red;
   background: yellow;
 }
+
+p {
+  font-size: 1.2em;
+}
+
+p::first-letter {
+  color: goldenrod;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+p::first-line {
+  color: goldenrod;
+  font-weight: bold;
+}
+
+ul li::marker {
+  color: red;
+  font-size: 1.5em;
+}
+
+input::placeholder {
+  color: darkcyan;
+}
+
+/* Presentational styles */
+
+input {
+  padding: 0.5em 1em;
+  border: 1px solid black;
+}
+
+video::backdrop {
+  background-color: goldenrod;
+}
+
+video {
+  min-width: 20rem;
+  max-width: 100%;
+}
