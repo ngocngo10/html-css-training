@@ -92,3 +92,58 @@ a:active {
   color: yellow;
 }
 
+/* input {
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 10px;
+  width: 65%;
+}
+input:placeholder-shown {
+  border: 5px solid red;
+} */
+
+/* form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+
+input:invalid {
+  background: hsla(0, 90%, 70%, 1);
+}
+
+input:valid {
+  background: hsla(100, 90%, 70%, 1);
+}
+
+label {
+  display: block;
+}
+
+p:first-child {
+  color: lime;
+  background-color: black;
+  padding: 5px;
+}
+
+div:only-child {
+  color: red;
+}
+
+div {
+  margin: 6px;
+  outline: 1px solid;
+}
+
+article :first-of-type {
+  background-color: pink;
+}
+
+li:nth-child(2) {
+  background: yellow;
+}
+
+strong:only-of-type {
+  background: yellow;
+}

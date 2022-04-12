@@ -75,6 +75,54 @@
   </div>
   <h1>CSS Links</h1>
   <a href="####">Google</a>
+  <form>
+    <input type="text" placeholder="Placeholder text" value="Currently has a value (not showing placeholder).">
+    <input type="text" placeholder="Currently has no value (showing placeholder).">
+  </form>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" />
+  <label for="emailRequired">Email (required):</label>
+  <input type="email" id="emailRequired" name="emailRequired" required />
+  <form action="#">
+    <label id="guess">Enter a number 1 through 9:</label>
+    <input type="text" id="guess" name="guess" pattern="[1-9]{1}" required />
+  </form>
+  <div>
+    <p>This text is selected!</p>
+    <p>This text isn't selected.</p>
+  </div>
+  <div>
+    <h2>This text isn't selected: it's not a `p`.</h2>
+    <p>This text isn't selected.</p>
+  </div>
+  <div>
+    <div>I am an only child.</div>
+  </div>
+  <div>
+    <div>I am the 1st sibling.</div>
+    <div>I am the 2nd sibling.</div>
+    <div>I am the 3rd sibling, <div>but this is an only child.</div>
+    </div>
+  </div>
+  <article>
+    <div>This `div` is first!</div>
+    <div>This <span>nested `span` is first</span>!</div>
+    <div>This <em>nested `em` is first</em>, but this <em>nested `em` is last</em>!</div>
+    <div>This <span>nested `span` gets styled</span>!</div>
+    <b>This `b` qualifies!</b>
+    <div>This is the final `div`.</div>
+    <article>
+      <ul>
+        <li>I am one of many list items</li>
+        <li>I have a highlight because I am the second child</li>
+        <li>Nullam id dolor id nibh ultricies vehicula ut id elit.</li>
+        <li>Cras mattis consectetur purus sit amet fermentum.</li>
+      </ul>
+    </article>
+    <article>
+      <p>The only <strong>bold element</strong> in this paragraph gets a highlight style. Cras justo odio, dapibus ac
+        facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+    </article>
 </body>
 
 </html>
