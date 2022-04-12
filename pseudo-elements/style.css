@@ -2,6 +2,7 @@ h1 {
   position: relative;
   padding-left: 20px;
 }
+
 h1::before {
   position: absolute;
   content: "";
@@ -10,4 +11,20 @@ h1::before {
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   border-left: 10px solid green;
+}
+
+.ribbon {
+  background-color: #5BC8F7;
+}
+
+.ribbon::after {
+  content: "This is a fancy orange box.";
+  background-color: #FFBA10;
+  border-color: black;
+  border-style: dotted;
+}
+
+::selection {
+  color: red;
+  background: yellow;
 }
