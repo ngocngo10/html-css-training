@@ -1,0 +1,37 @@
+ul.inside {
+  list-style-position: inside;
+}
+
+/* ul {
+  list-style-image: linear-gradient(to left bottom, red, blue);
+} */
+
+li {
+  list-style-type: "🛒";
+  background-color: plum;
+  padding-left: .8em;
+}
+
+.flow-1 {
+  max-width: 60rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.list-container {
+  margin-top: 0;
+}
+
+h1 {
+  display: list-item;
+  margin-left: 3rem;
+}
+
+h1::marker {
+  content: "🥕";
+}
+
+li:last-child::marker {
+  content: "😍";
+}
