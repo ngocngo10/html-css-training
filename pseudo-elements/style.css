@@ -1,0 +1,73 @@
+h1 {
+  position: relative;
+  padding-left: 20px;
+}
+
+h1::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 8px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid green;
+}
+
+.ribbon {
+  background-color: #5BC8F7;
+}
+
+.ribbon::after {
+  content: "This is a fancy orange box.";
+  background-color: #FFBA10;
+  border-color: black;
+  border-style: dotted;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+p::first-letter {
+  color: goldenrod;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+p::first-line {
+  color: goldenrod;
+  font-weight: bold;
+}
+
+ul li::marker {
+  color: red;
+  font-size: 1.5em;
+}
+
+input::placeholder {
+  color: darkcyan;
+}
+
+/* Presentational styles */
+
+input {
+  padding: 0.5em 1em;
+  border: 1px solid black;
+}
+
+video::backdrop {
+  background-color: goldenrod;
+}
+
+video {
+  min-width: 20rem;
+  max-width: 100%;
+}
