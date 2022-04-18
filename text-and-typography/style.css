@@ -200,11 +200,12 @@ p.label {
 /* Decorative styles */
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-
+.lh-normal {
 line-height: normal;
 }
 
@@ -254,3 +255,58 @@ p.spacing-label {
   padding: 8px;
 }
 
+.normal   { letter-spacing: normal; }
+.em-wide  { letter-spacing: 0.4em; }
+.em-wider { letter-spacing: 1em; }
+.em-tight { letter-spacing: -0.05em; }
+.px-wide  { letter-spacing: 6px; }
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.container {
+  text-align: left;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: "Garamond", "Georgia", serif;
+}
+
+h1:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+p.label {
+  font-family: monospace;
+}
+
+to-clip {
+  text-overflow: clip;
+}
+
+.to-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.container {
+  border: 2px solid grey;
+  width: 400px;
+  padding: 4px 8px;
+}
+
+p {
+  font-family: "Garamond", "Georgia", serif;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left;
+}
