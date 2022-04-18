@@ -1,0 +1,59 @@
+.box {
+  height: 400px;
+  width: 500px;
+  border: 1px solid;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+
+.circle {
+  height: 500px;
+  width:  500px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.box-1 {
+  height: 100px;
+  width:  200px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.shadow {
+  width: 20rem;
+  height: 20rem;
+  background-color: black;
+  margin: auto;
+  box-shadow: 10px 15px 10px 15px rebeccapurple;
+}
+
+.my-element {
+  box-shadow: 0px 0px 20px 5px darkslateblue;
+  border-radius: 25px;
+}
+
+/* Presentational styles */
+.my-element {
+  width: 250px;
+  height: 250px;
+  background: red;
+  margin: 1em 2em;
+}
+
+.my-shadow {
+  padding: 2em;
+  box-shadow: 0px 0px 20px 5px darkslateblue;
+}
+
+.my-parent,
+.my-shadow {
+  width: 250px;
+  height: 250px;
+  background-color:brown;
+}
+
+.my-parent {
+  overflow: hidden;
+  margin: 1em 2em;
+}
