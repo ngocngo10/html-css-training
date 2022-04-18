@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Z index Css</h1>
+  <div class="wrapper">
+    <div class="box box-a">Box A</div>
+    <div class="box box-b">Box B</div>
+    <div class="box box-c">Box C</div>
+    <div class="box box-d">Box D</div>
+  </div>
+  <div class="wrapper-1">
+    <article class="flow">
+      <h1>Grid layout and <code>z-index</code></h1>
+      <figure class="callout">
+        <p>
+          In a grid context like this, you can modify <code>z-index</code> without
+          having to add <code>position: relative</code>.
+        </p>
+      </figure>
+      <div class="demo">
+        <div class="demo-box"><code>z-index: 3;</code></div>
+        <div class="demo-box"><code>z-index: 1;</code></div>
+        <div class="demo-box"><code>z-index: 2;</code></div>
+      </div>
+    </article>
+  </div>
+  <div class="my-element">
+    <div class="child">I am behind my parent</div>
+  </div>
+  <header>HEADER</header>
+  <main>
+    <div class="buggy">Buggy z-index box</div>
+  </main>
+</body>
+
+</html>
