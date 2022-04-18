@@ -17,3 +17,43 @@ h2 {
   height: 300px;
   width: 400px;
 }
+
+.bgr-repeat {
+  background-image: url('https://cdn.freehost.page/wp-content/uploads/2021/02/background-nho.jpg');
+  color: white;
+  background-repeat: repeat-y;
+  font-size: 40px;
+  height: 300px;
+  width: 400px;
+}
+
+body  {
+  /* background-image: url("https://d9i9nmwzijaw9.cloudfront.net/450/774/576/-29996968-1tfd7tc-gpggmmc5d0og3a0/original/image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+
+div {
+  width: 400px;
+  height: 200px;
+  border: 5px solid #E18728;
+  margin-bottom: .5em;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/codepen.png); 
+  background-repeat: no-repeat;
+}
+
+#onevalue { background-position: 10px; }
+
+#twovalues { background-position: 10px 35px; }
+
+#threevalues { background-position: right 45px bottom; } 
+
+#fourvalues { background-position: right 45px bottom 20px; }
+
+
+
+/* styling for Pen, unrelated to background-position */
+p { 
+  margin-top: 10px;
+  padding: 0 1em;
+}
