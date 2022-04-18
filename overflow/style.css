@@ -32,3 +32,36 @@ body {
 .rtl > p {
   direction: rtl;
 }
+
+.parent {
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+}
+
+div {
+  margin: 1em;
+  font-size: 1.2em;
+}
+
+p {
+  width: 8em;
+  height: 5em;
+  border: dotted;
+}
+
+p.visible {
+  overflow: visible;
+}
+
+p.hidden {
+  overflow: hidden;
+}
+
+p.scroll {
+  overflow: scroll;
+}
