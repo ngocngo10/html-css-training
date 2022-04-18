@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="container">
     <h1 class="ff-serif">serif</h1>
@@ -15,6 +17,95 @@
     <h1 class="ff-fallback-demo">monospace <span class="label">(via fallback)</span></h1>
     <h1 class="ff-cursive">cursive</h1>
     <h1 class="ff-garamond">EB Garamond</h1>
+    <h1>The font-style Property</h1>
+
+    <p class="a">This is a paragraph, normal.</p>
+    <p class="b">This is a paragraph, italic.</p>
+    <p class="c">This is a paragraph, oblique.</p>
+    <h1>The font-weight Property</h1>
+
+    <p class="normal">This is a paragraph.</p>
+    <p class="light">This is a paragraph.</p>
+    <p class="thick">This is a paragraph.</p>
+    <p class="thicker">This is a paragraph.</p>
+    <h1 class="a">font-size: xx-small</h1>
+    <h1 class="b">font-size: x-small</h1>
+    <h1 class="c">font-size: small</h1>
+    <h1 class="d">font-size: medium</h1>
+    <h1 class="e">font-size: large</h1>
+    <h1 class="f">font-size: x-large</h1>
+    <h1 class="g">font-size: xx-large</h1>
+    <p class="label html-label container-label">html { font-size: 12px }</p>
+    <div class="outer">
+      <section>
+        <h1 class="a">1rem</h1>
+        <h1 class="b">1em</h1>
+        <h1 class="c">12px</h1>
+        <h1 class="d">1.5em</h1>
+        <h1 class="e">24px</h1>
+      </section>
+      <section>
+        <p class="label container-label">font-size: 8px</p>
+        <div class="container container-a">
+          <div class="inner-box-wrapper">
+            <h1 class="a">1rem</h1>
+            <h1 class="b">1em</h1>
+            <h1 class="f">8px</h1>
+            <h1 class="d">1.5em</h1>
+            <h1 class="c">12px</h1>
+          </div>
+          <div class="inner-box-wrapper">
+            <p class="label container-label">font-size: 3em</p>
+            <div class="container container-b">
+              <h1 class="a">1rem</h1>
+              <h1 class="b">1em</h1>
+              <h1 class="e">24px</h1>
+              <h1 class="d">1.5em</h1>
+              <h1 class="g">36px</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="outer">
+    <div class="container">
+      <p class="spacing-label">line-height: normal</p>
+      <p class="main-text lh-normal">The Salinas Valley is in Northern California. It is a long narrow swale between two
+        ranges of mountains, and the Salinas River winds and twists up the center until it falls at last into Monterey
+        Bay.</p>
+    </div>
+    <div class="container">
+      <p class="spacing-label">line-height: 1</p>
+      <p class="main-text lh-a">The Salinas Valley is in Northern California. It is a long narrow swale between two
+        ranges of mountains, and the Salinas River winds and twists up the center until it falls at last into Monterey
+        Bay.</p>
+    </div>
+    <div class="container">
+      <p class="spacing-label">line-height: 2</p>
+      <p class="main-text lh-b">The Salinas Valley is in Northern California. It is a long narrow swale between two
+        ranges of mountains, and the Salinas River winds and twists up the center until it falls at last into Monterey
+        Bay.</p>
+    </div>
+    <div class="container">
+      <p class="spacing-label">line-height: 2em</p>
+      <p class="main-text lh-c">The Salinas Valley is in Northern California. It is a long narrow swale between two
+        ranges of mountains, and the Salinas River winds and twists up the center until it falls at last into Monterey
+        Bay.</p>
+    </div>
+    <div class="container">
+      <p class="spacing-label">line-height: 1.5</p>
+      <p class="main-text lh-d">The Salinas Valley is in Northern California. It is a long narrow swale between two
+        ranges of mountains, and the Salinas River winds and twists up the center until it falls at last into Monterey
+        Bay.</p>
+    </div>
+    <div class="container">
+      <p class="spacing-label">line-height: 24px</p>
+      <p class="main-text lh-e">The Salinas Valley is in Northern California. It is a long narrow swale between two
+        ranges of mountains, and the Salinas River winds and twists up the center until it falls at last into Monterey
+        Bay.</p>
+    </div>
   </div>
 </body>
+
 </html>

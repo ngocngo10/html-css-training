@@ -40,3 +40,217 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+p.a {
+  font-style: normal;
+}
+
+p.b {
+  font-style: italic;
+}
+
+p.c {
+  font-style: oblique;
+}
+
+p.normal {
+  font-weight: normal;
+}
+
+p.light {
+  font-weight: lighter;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.thicker {
+  font-weight: 900;
+}
+
+.a {
+font-size: xx-small;
+}
+
+.b {
+  font-size: x-small;
+}
+
+.c {
+  font-size: small;
+}
+
+.d {
+  font-size: medium;
+}
+
+.e {
+  font-size: large;
+}
+
+.f {
+  font-size: x-large;
+}
+
+.g {
+  font-size: xx-large;
+}
+
+.container {
+  text-align: left;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: "Garamond", "Georgia", serif;
+}
+
+h1:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+html {
+  font-size: 12px;
+}
+
+.a {
+  font-size: 1rem;
+}
+
+.b {
+  font-size: 1em;
+}
+
+.c {
+  font-size: 12px;
+}
+
+.d {
+  font-size: 1.5em;
+}
+
+.e {
+  font-size: 24px;
+}
+
+.f {
+  font-size: 8px;
+}
+
+.g {
+  font-size: 36px;
+}
+
+h1 {
+  /* font-family: "Garamond", "Georgia", serif; */
+  font-family: monospace;
+}
+
+h1:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+p.label {
+  font-size: 11px;
+  font-family: monospace;
+}
+
+.label.html-label {
+  margin-bottom: 8px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.container-a {
+  font-size: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container-b {
+  font-size: 3em;
+}
+
+.container-label {
+  color: white;
+  background: #555;
+  padding: 5px 14px 2px;
+  max-width: 100%;
+}
+
+.container {
+  text-align: left;
+  border: 2px solid #555;
+  padding: 12px;
+}
+
+.outer > section {
+  margin-bottom: 16px;
+}
+
+.outer {
+  width: 100%;
+  padding: 0 14px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+/* Decorative styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+line-height: normal;
+}
+
+.lh-a {
+  line-height: 1;
+}
+
+.lh-b {
+  line-height: 2;
+}
+
+.lh-c {
+  line-height: 2em;
+}
+
+.lh-d {
+  line-height: 1.5;
+}
+
+.lh-e {
+  line-height: 24px;
+}
+
+p.main-text {
+  font-family: "Garamond", "Georgia", serif;
+  font-size: 0.75em;
+}
+
+p.spacing-label {
+  font-family: monospace;
+  margin-bottom: 8px;
+}
+
+.spacing-label.normal-spacing {
+  text-decoration: line-through rgba(255, 180, 0, 0.3) 1ex;
+}
+
+.outer {
+  max-width: 75%;
+  display: grid;
+  padding: 0 12px;
+  grid-gap: 36px;
+  grid-template-columns: repeat(2, auto);
+}
+
+.container {
+  padding: 8px;
+}
+
