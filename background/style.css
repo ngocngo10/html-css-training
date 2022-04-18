@@ -1,3 +1,19 @@
 h2 {
   background-color: #2E58FF;
 }
+
+.large-bgr-image {
+  background-image: url('https://cdn.freehost.page/wp-content/uploads/2021/02/background.jpg');
+  color: white;
+  font-size: 40px;
+  height: 300px;
+  width: 400px;
+}
+
+.small-bgr-image {
+  background-image: url('https://cdn.freehost.page/wp-content/uploads/2021/02/background-nho.jpg');
+  color: white;
+  font-size: 40px;
+  height: 300px;
+  width: 400px;
+}
