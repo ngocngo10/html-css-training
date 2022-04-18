@@ -1,0 +1,239 @@
+/* .square {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  background-color: violet;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  padding: 8px;
+}
+
+.square.tp-transform {
+  transition-property: transform;
+}
+
+.square.tp-color {
+  transition-property: background-color;
+}
+
+.square.tp-both {
+  transition-property: background-color, transform;
+
+  /* 
+  You can also use the keyword `all`, e.g.:
+  
+  transition-property: all;
+  */
+/* }
+
+.square.tp-none {
+  transition-property: none;
+}
+
+.square:is(:hover, :focus) {
+  transform: scale(1.3);
+  background-color: cornflowerblue;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
+}
+
+.wrapper .square:nth-child(odd) {
+  justify-self: end;
+}
+
+.wrapper .square:nth-child(even) {
+  justify-self: start;
+}
+*/
+
+/* body {
+  display: grid;
+  place-items: center;
+}   */
+
+.target {
+  font-size: 14px;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-duration: 3s;
+}
+
+.target:hover {
+  font-size: 36px;
+}
+
+.square {
+  width: 150px;
+  max-height: 100px;
+  background-color: lightcoral;
+  border-radius: 8px;
+  text-align: center;
+  padding: 8px;
+  margin-bottom: 4px;
+
+  transition-property: width;
+  transition-duration: 1s;
+}
+
+.square.ttf-linear {
+  transition-timing-function: linear;
+}
+
+.square.ttf-ease {
+  transition-timing-function: ease;
+}
+
+.square.ttf-ease-in {
+  transition-timing-function: ease-in;
+}
+
+.square.ttf-ease-out {
+  transition-timing-function: ease-out;
+}
+
+.square.ttf-ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+
+.square.ttf-steps {
+  transition-timing-function: steps(3);
+}
+
+.square.ttf-cubic {
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.square:is(:hover, :focus) {
+  width: 50%;
+}
+
+/* Decorative styles */
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle {
+  width: 150px;
+  max-height: 100px;
+  background-color: gold;
+  border: 5px solid gold;
+  border-radius: 8px;
+  text-align: right;
+  padding: 8px;
+  margin-bottom: 4px;
+}
+
+.rectangle:nth-child(1) {
+  transition-delay: 0s;
+}
+
+.rectangle:nth-child(2) {
+  transition-delay: 100ms;
+}
+
+.rectangle:nth-child(3) {
+  transition-delay: 200ms;
+}
+
+.rectangle:nth-child(4) {
+  transition-delay: 500ms;
+}
+
+.rectangle:nth-child(5) {
+  transition-delay: 1000ms;
+}
+
+.rectangle:is(:hover, :focus) {
+  background-color: transparent;
+}
+
+.wrapper {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item {
+  width: 300px;
+  max-height: 200px;
+  background-color: darkslateblue;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  padding: 8px;
+  margin-bottom: 4px;
+
+  transform-origin: 0 0;
+  transform: translateX(-100px);
+  opacity: 0;
+
+  transition-property: transform, opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.wrapper:is(:hover, :focus) .menu-item {
+  transform: translateX(0);
+  opacity: 100%;
+}
+
+.wrapper .menu-item:nth-of-type(1) {
+  transition-delay: 0ms;
+}
+
+.wrapper .menu-item:nth-of-type(2) {
+  transition-delay: 100ms;
+}
+
+.wrapper .menu-item:nth-of-type(3) {
+  transition-delay: 200ms;
+}
+
+.wrapper .menu-item:nth-of-type(4) {
+  transition-delay: 300ms;
+}
+
+.wrapper .menu-item:nth-of-type(5) {
+  transition-delay: 400ms;
+}
+
+.wrapper p {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.wrapper-shadows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+​
+.square-shadows {
+  width: 200px;
+  height: 200px;
+  margin: 8px;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: white;
+  transition-property: box-shadow, transform;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
+}
+
+.square-shadows:is(:hover, :focus) {
+  box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+}
