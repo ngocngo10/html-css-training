@@ -310,3 +310,8 @@ p {
   white-space: nowrap;
   text-align: left;
 }
+
+.example {
+  text-align: start;
+  border: solid;
+}
