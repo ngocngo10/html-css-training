@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel Landing Page</title>
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -18,10 +17,10 @@
           <img src="./assets/images/header-logo.png" alt="headerLogo">
         </a>
         <ul class="header-nav__menu">
-          <li class="header-nav__item"><a href="#">Articles</a></li>
-          <li class="header-nav__item"><a href="#">Locations</a></li>
-          <li class="header-nav__item"><a href="#">Video</a></li>
-          <li class="header-nav__item"><a href="#">Sign in</a></li>
+          <li class="header-nav__item"><a href="javascript:void(0)">Articles</a></li>
+          <li class="header-nav__item"><a href="javascript:void(0)">Locations</a></li>
+          <li class="header-nav__item"><a href="javascript:void(0)">Video</a></li>
+          <li class="header-nav__item"><a href="javascript:void(0)">Sign in</a></li>
         </ul>
       </div>
     </nav>
@@ -32,16 +31,16 @@
       Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child,
       open the door,
     </p>
-    <form class="search-group" action="#" method="post">
-      <div class="search-item search-item--first">
-        <input type="radio" id="what-radio" name="radio">
+    <form class="search-group" action="javascript:void(0)" method="post">
+      <div class="search-item search-item--what">
+        <input class="search-item__radio" type="radio" id="what-radio" name="radio">
         <label for="what-radio">What would you like to do?</label>
-        <input type="text" name="what-text" id="what-text">
+        <input class="search-item__text" type="text" name="what-text" id="what-text">
       </div>
-      <div class="search-item search-item--second">
-        <input type="radio"  id="where-radio" name="radio">
+      <div class="search-item search-item--where">
+        <input class="search-item__radio" type="radio"  id="where-radio" name="radio">
         <label for="where-radio">Where would you like to go?</label>
-        <input type="text" name="what-text" id="what-text">
+        <input class="search-item__text" type="text" name="what-text" id="what-text">
       </div>
       <button type="submit" class="btn btn--search">Search</button>
     </form>
