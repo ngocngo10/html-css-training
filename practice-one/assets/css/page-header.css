@@ -1,0 +1,157 @@
+.page-header {
+  position: relative;
+  height: 962px;
+  top: 14px;
+  background-image: url('../images/header-bgr.png');
+  background-size: cover;
+  color: var(--secondary-color);
+}
+
+.header-nav {
+  position: absolute;
+  width: 100%;
+  top: 42px;
+  height: 31px;
+}
+
+.container {
+  max-width: 1262px;
+  margin-left: 106px;
+}
+
+.header-nav__brand {
+  padding-left: 85px;
+  width: 82px;
+  height: 31px;
+}
+
+.header-nav__menu {
+  display: inline-block;
+  padding-right: 95px;
+  float: right;
+  margin: 0;
+}
+
+.header-nav__item {
+  display: inline-block;
+  margin-left: 82px;
+}
+
+.header-nav__item a {
+  color: var(--seconday-color);
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--fourth-color);
+}
+
+h1 {
+  position: absolute;
+  width: 619px;
+  height: 121px;
+  left: 191px;
+  top: 249px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  /* border: 1px solid #000000; */
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.page-header p {
+  position: absolute;
+  width: 546px;
+  height: 72px;
+  left: 191px;
+  top: 406px;
+  /* or 150% */
+}
+
+.search-item {
+  display: inline-block;
+  position: absolute;
+  height: 49px;
+  top: 523px;
+}
+
+.search-item label {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.search-item--what {
+  width: 297px;
+  left: 191px;
+}
+
+.search-item--what label {
+  position: absolute;
+  left: 14.81%;
+  right: 12.46%;
+  top: calc(50% - 24px/2 - 12.5px);
+}
+
+.search-item--where {
+  width: 297px;
+  left: 549px;
+}
+
+.search-item--where label {
+  position: absolute;
+  left: 14.81%;
+  right: 9.43%;
+  top: calc(50% - 24px/2 - 12.5px);
+}
+
+.search-item__radio {
+  position: absolute;
+  left: 0.34%;
+  right: 92.93%;
+  top: 4.08%;
+  bottom: 55.1%;
+  border: 2px solid var(--seconday-color);
+  box-sizing: border-box;
+
+}
+
+.search-item__text {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  /* top: 93.88%; */
+  bottom: 0%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #BFC0C5;
+  color: var(--third-color);
+  text-align: center;
+}
+
+.search-item__text:focus {
+ outline: none;
+}
+
+.btn {
+  background: var(--third-color);
+  text-transform: uppercase;
+  border: none;
+}
+
+.btn:hover {
+  background: var(--fourth-color);
+}
+
+.btn--search {
+  position: absolute;
+  width: 171px;
+  height: 58px;
+  left: 906px;
+  top: 518px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--seconday-color);
+}
