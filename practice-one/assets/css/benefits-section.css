@@ -1,0 +1,32 @@
+.section-benefits {
+  position: absolute;
+  height: 655px;
+  /* left: 106px; */
+  top: 725px;
+  background: var(--secondary-color);
+  box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+}
+
+.benefit__list {
+
+}
+
+.benefit__item {
+
+}
+
+.benefit__item--welcome {
+
+}
+
+.benefit__item--personal {
+
+}
+
+.benefit__item--promoting {
+
+}
+
+.benefit__icon {
+
+}

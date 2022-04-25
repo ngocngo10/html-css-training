@@ -4,7 +4,7 @@
    font-size: 16px;
    font-weight: 400;
    line-height: 24px;
-   margin: auto;
+   margin: 0 auto;
 }
 
 :root {
@@ -13,3 +13,9 @@
    --third-color: #1B7DFF;
    --fourth-color: red;
 }
+
+.container {
+   max-width: 1262px;
+   margin-left: 106px;
+   margin-right: ;
+ }
