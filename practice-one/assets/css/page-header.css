@@ -2,6 +2,7 @@
   position: relative;
   height: 962px;
   top: 14px;
+  width: 100%;
   background-image: url('../images/header-bgr.png');
   background-size: cover;
   color: var(--secondary-color);
@@ -9,21 +10,23 @@
 
 .header-nav {
   position: absolute;
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
   top: 42px;
   height: 31px;
+  width: 100%;
 }
 
 .header-nav__brand {
-  padding-left: 85px;
+  padding-left: 191px;
+  margin: 0;
   width: 82px;
   height: 31px;
 }
 
 .header-nav__menu {
   display: inline-block;
-  padding-right: 95px;
-  float: right;
+  padding-right: 197px;
   margin: 0;
 }
 

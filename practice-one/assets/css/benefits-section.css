@@ -1,32 +1,74 @@
 .section-benefits {
   position: absolute;
-  height: 655px;
-  /* left: 106px; */
   top: 725px;
+  height: 655px;
+  margin: 0 72px 0 106px;
+  width: 100%;
+  max-width: 1262px;
   background: var(--secondary-color);
   box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+  color: var(--primary-color);
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+}
+
+.section-benefits h2 {
+  position: absolute;
+  height: 42px;
+  left: 7.84%;
+  right: 70.76%;
+  top: calc(50% - 42px/2 - 213.5px);
 }
 
 .benefit__list {
-
+  position: absolute;
+  top: 255px;
+  bottom: 112px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 74px;
+  max-width: 1262px;
+  padding-left: 100px;
+  padding-right: 63px;
 }
 
 .benefit__item {
-
+  position: relative;
+  list-style-type: none;
 }
 
-.benefit__item--welcome {
+.benefit__item--welcome {}
 
-}
+.benefit__item--personal {}
 
-.benefit__item--personal {
-
-}
-
-.benefit__item--promoting {
-
-}
+.benefit__item--promoting {}
 
 .benefit__icon {
+  position: absolute;
+  left: 0%;
+  right: 79.18%;
+  top: 0%;
+  bottom: 77.08%;
+}
 
+.benefit__item h3 {
+  position: absolute;
+  height: 24px;
+  left: 0%;
+  /* right: 51.42%; */
+  top: calc(50% - 24px/2 - 29px);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.benefit__des {
+  position: absolute;
+  height: 72px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 72px/2 + 45px);
 }

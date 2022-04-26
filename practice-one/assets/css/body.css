@@ -7,15 +7,13 @@
    margin: 0 auto;
 }
 
+.body {
+   position: relative;
+}
+
 :root {
    --primary-color: #102746;
    --secondary-color:#FFFFFF;
    --third-color: #1B7DFF;
    --fourth-color: red;
 }
-
-.container {
-   max-width: 1262px;
-   margin-left: 106px;
-   margin-right: ;
- }
