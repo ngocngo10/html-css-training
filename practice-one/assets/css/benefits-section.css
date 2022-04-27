@@ -10,18 +10,12 @@
   color: var(--primary-color);
 }
 
-h2 {
+.section__title {
   font-weight: 500;
   font-size: 35px;
   line-height: 42px;
-}
-
-.section-benefits h2 {
-  position: absolute;
-  height: 42px;
-  left: 7.84%;
-  right: 70.76%;
-  top: calc(50% - 42px/2 - 213.5px);
+  margin-top: 93px;
+  margin-left: 99px; 
 }
 
 .benefit__list {
