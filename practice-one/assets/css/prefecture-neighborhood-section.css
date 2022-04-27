@@ -1,0 +1,42 @@
+.prefecture-neighborhood-section {
+  position: absolute;
+  width: 1277px;
+  height: 784px;
+  top: 2391px;
+  margin-left: 85px;
+}
+
+.prefecture-box {
+  width: 1224px;
+  height: 354px;
+  margin: 0px;
+}
+
+.prefecture-image {
+  width: 579px;
+  height: 100%;
+}
+
+.prefecture-content {
+  display: inline-block;
+}
+
+.prefecture__title {}
+
+.prefecture__des .view-prefecture {}
+
+.link-content {}
+
+.link-image {}
+
+.neighborhood-box {}
+
+.neighborhood-image {}
+
+.neighborhood-content {}
+
+.neighborhood__title {}
+
+.neighborhood__des {}
+
+.view-neighborhood {}
