@@ -70,7 +70,6 @@
   top: 91.67%;
   height: 24px;
   width: 161px;
-  color: #006DFE;
 }
 
 .benefit-learn-more a:hover {
@@ -85,6 +84,7 @@
   top: calc(50% - 24px/2);
   text-transform: uppercase;
   text-decoration: none;
+  color: #006DFE;
 }
 
 .learn-more__icon {
