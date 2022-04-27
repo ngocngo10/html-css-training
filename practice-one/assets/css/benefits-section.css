@@ -94,9 +94,7 @@ h2 {
 
 .learn-more__icon {
   position: absolute;
-  left: 79.5%;
+  /* left: 79.5%; */
   right: 0%;
   top: 33.33%;
-  /* width: 33px;
-  height: 8px; */
 }
