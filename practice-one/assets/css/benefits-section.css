@@ -70,13 +70,14 @@
   top: 91.67%;
   height: 24px;
   width: 161px;
+  color: #006DFE;
 }
 
-.benefit-learn-more a:hover {
-  color: var(--fourth-color);
+.a:hover {
+  color: red;
 }
 
-.learn-more__content {
+.link-content {
   position: absolute;
   height: 24px;
   left: 0%;
@@ -84,10 +85,9 @@
   top: calc(50% - 24px/2);
   text-transform: uppercase;
   text-decoration: none;
-  color: #006DFE;
 }
 
-.learn-more__icon {
+.link-icon {
   position: absolute;
   /* left: 79.5%; */
   right: 0%;
