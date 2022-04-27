@@ -1,6 +1,7 @@
 .section-benefits {
   position: absolute;
   top: 739px;
+  bottom: 0;
   height: 655px;
   margin: 0 72px 0 106px;
   width: 100%;

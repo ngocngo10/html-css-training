@@ -1,0 +1,45 @@
+.inspired-section {
+  position: absolute;
+  width: 1264px;
+  height: 735px;
+  top: 1525px;
+  margin-left: 90px;
+}
+
+.inspired__title {
+  margin: 0 0 0 2px;
+  width: 457px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  color: var(--primary-color);
+}
+
+.inspired-view-all {
+  display: inline-block;
+  float: right;
+  height: 24px;
+  width: 132px;
+  /* margin-left: 672px; */
+}
+
+.view-all__content {
+  margin-left: 1px;
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.view-all__icon {
+  display: inline-block;
+  height: 8px;
+  width: 33px;
+  margin-right: 26px;
+  margin-top: 8px;
+}
+
+.inspired__list {}
+
+.inspired__item {}
+
+.inspired__img-title {}
