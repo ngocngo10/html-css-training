@@ -1,13 +1,13 @@
 .inspired-section {
   position: absolute;
-  width: 1264px;
   height: 735px;
   top: 1525px;
-  margin-left: 88px;
+  padding-inline: 88px;
 }
 
 .inspired__title {
-  margin: 0px 0px 0px 2px;
+  display: inline-block;
+  margin-left: 2px;
   height: 42px;
   width: 457px;
   font-weight: 500;
@@ -18,11 +18,12 @@
 
 
 .inspired-view-all {
-  position: absolute;
+  display: inline-block;
+  float: right;
+  position: relative;
+  margin-right: 2px;
   height: 24px;
   width: 132px;
-  left: 1131px;
-  top: 14px;
   text-decoration: none;
   text-transform: uppercase;
   color: #006DFE;
