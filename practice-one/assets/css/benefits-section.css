@@ -1,6 +1,7 @@
 .section-benefits {
   position: absolute;
   top: 739px;
+  bottom: 0;
   height: 655px;
   margin: 0 72px 0 106px;
   width: 100%;
@@ -72,11 +73,11 @@
   color: #006DFE;
 }
 
-.benefit-learn-more a:hover {
-  color: var(--fourth-color);
+.a:hover {
+  color: red;
 }
 
-.learn-more__content {
+.link-content {
   position: absolute;
   height: 24px;
   left: 0%;
@@ -86,7 +87,7 @@
   text-decoration: none;
 }
 
-.learn-more__icon {
+.link-icon {
   position: absolute;
   /* left: 79.5%; */
   right: 0%;
