@@ -1,38 +1,39 @@
 .page-header {
-  position: relative;
   height: 962px;
-  top: 14px;
-  width: 100%;
+  margin-top: 14px;
   background-image: url('../images/header-bgr.png');
   background-size: cover;
   color: var(--secondary-color);
 }
 
 .header-nav {
-  position: absolute;
-  display: flex;
-  justify-content: space-between;
+  position: relative;
   top: 42px;
   height: 31px;
-  width: 100%;
+  padding-left: 191px;
+  padding-right: 167px;
 }
 
 .header-nav__brand {
-  padding-left: 191px;
-  margin: 0;
+  display: inline-block;
   width: 82px;
   height: 31px;
 }
 
+.header-nav__brand img {
+  vertical-align: middle;
+}
+
 .header-nav__menu {
-  display: inline-block;
-  padding-right: 197px;
-  margin: 0;
+  float: right;
+  max-width: 1000px ;
+  height: 31px;
 }
 
 .header-nav__item {
   display: inline-block;
   margin-left: 82px;
+  height: 31px;
 }
 
 .header-nav__item a {
