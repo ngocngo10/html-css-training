@@ -11,8 +11,12 @@ body {
 * {
    margin: 0px;
    padding: 0px;
-   box-sizing: border-box;
+   box-sizing: content-box;
 }
+
+a:hover {
+   color: var(--fourth-color);
+ }
 :root {
    --primary-color: #102746;
    --secondary-color:#FFFFFF;
