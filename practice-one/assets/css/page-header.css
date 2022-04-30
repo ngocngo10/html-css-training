@@ -32,8 +32,9 @@
 
 .header-nav__item {
   display: inline-block;
-  margin-left: 82px;
   height: 31px;
+  padding-top: 4px;
+  margin-left: 82px;
 }
 
 .header-nav__item a {
