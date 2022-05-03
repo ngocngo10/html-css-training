@@ -1,5 +1,11 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
 body {
-   font-family: "Lato",sans-serif;
+   font-family: "Lato", sans-serif;
    font-style: normal;
    font-size: 16px;
    font-weight: 400;
@@ -8,18 +14,19 @@ body {
    margin: 0 auto;
 }
 
-* {
-   margin: 0px;
-   padding: 0px;
-   box-sizing: content-box;
+.container {
+   max-width: 1326px;
+   margin: 0 auto;
+   padding: 0 15px;
 }
 
-a:hover {
-   color: var(--fourth-color);
- }
+img {
+   max-width: 100%;
+}
+
 :root {
    --primary-color: #102746;
-   --secondary-color:#FFFFFF;
+   --secondary-color: #FFFFFF;
    --third-color: #1B7DFF;
    --fourth-color: red;
 }
