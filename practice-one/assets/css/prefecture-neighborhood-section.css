@@ -1,5 +1,6 @@
 .prefecture-neighborhood-section {
   position: absolute;
+  max-width: 1440px;
   width: 100%;
   height: 784px;
   top: 2391px;
@@ -7,38 +8,35 @@
 }
 
 .prefecture-box {
-  height: 354px;
-  padding: 0px 131px 0px 85px;
+  margin: 0px 59px 0px 13px;
+  display: flex;
+  column-gap: 8.823%;
 }
 
-.prefecture-image {
-  width: 579px;
+.prefecture-neighborhood__image {
+  width: 48.774%;
   height: 100%;
 }
 
-.prefecture-content {
-  display: inline-block;
-  float: right;
-  width: 537px;
+.prefecture-neighborhood-content {
+  width: 42.203%;
   height: 100%;
-  margin-left: 108px;
 }
 
-.prefecture__title {
-  margin: 26px 162px 0px 0px;
+.prefecture-neighborhood__title {
+  margin-top: 26px;
   font-weight: 500;
   font-size: 30px;
   line-height: 40px;
 }
 
-.prefecture__des {
-  width: 519px;
-  height: 72px;
+.prefecture-neighborhood__des {
   margin-top: 85px;
-  margin-left: 0px;
+  height: 72px;
+  overflow: hidden;
 }
 
-.view-prefecture {
+.prefecture__view {
   display: inline-block;
   position: relative;
   margin-top: 58px;
@@ -48,44 +46,15 @@
 
 .neighborhood-box {
   height: 354px;
-  margin-top: 76px;
-  padding: 0px 78px 0px 138px;
+  margin: 76px 0px 0px 66px;
+  display: flex;
+  column-gap: 8.823%;
 }
 
-.neighborhood-image {
-  width: 579px;
-  height: 100%;
-  float: right;
-}
-
-.neighborhood-content {
-  margin: 0px;
-  display: inline-block;
-  float: left;
-  width: 537px;
-  height: 100%;
-}
-
-.neighborhood__title {
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 40px;
-  width: 357px;
-  margin-top: 26px;
-  margin-left: 0px;
-}
-
-.neighborhood__des {
-  width: 519px;
-  height: 72px;
-  margin-top: 45px;
-  margin-left: 0px;
-}
-
-.view-neighborhood {
+.neighborhood__view {
   display: inline-block;
   position: relative;
+  margin-top: 58px;
+  width: 293px;
   height: 24px;
-  width: 239px;
-  margin-top: 94px;
 }
