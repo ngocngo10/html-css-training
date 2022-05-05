@@ -1,0 +1,149 @@
+.top-place-section {
+  position: absolute;
+  max-width: 1440px;
+  width: 100%;
+  height: 1298px;
+  top: 3315px;
+}
+
+.top-place__title {
+  position: relative;
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  color: var(--primary-color);
+}
+
+.top-place__title::before {
+  position: absolute;
+  left: 0.5px;
+  top: 49px;
+  content: "";
+  border-top: 2px solid #006DFE;
+  width: 253px;
+}
+
+.top-place__list {
+  height: 1192px;
+  margin: 64px 15px 0 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 58px;
+  grid-template-areas:
+    "h1 h2 h3"
+    "h4 h5 h6";
+  list-style-type: none;
+}
+
+.top-place__item {
+  position: relative;
+}
+
+.top-place__img {
+  width: 100%;
+  height: 377px;
+  object-fit: cover;
+}
+
+.top-place__list:first-child {
+  grid-area: h1;
+}
+
+.top-place__list:nth-child(2) {
+  grid-area: h2;
+}
+
+.top-place__list:nth-child(3) {
+  grid-area: h3;
+}
+
+.top-place__list:nth-child(4) {
+  grid-area: h4;
+}
+
+.top-place__list:nth-child(5) {
+  grid-area: h5;
+}
+
+.top-place__infor {
+  position: absolute;
+  display: flex;
+  top: 56.79%;
+  height: 55px;
+  width: 100%;
+  padding: 16px 0px 15px 0px;
+  background: rgba(21, 24, 36, 0.6);
+  color: var(--secondary-color);
+  list-style-type: none;
+}
+
+.top-place__img-title {
+  position: absolute;
+  left: 6.63%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.top-place__like {
+  position: absolute;
+  left: 65.82%;
+  right: 21.94%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.top-place__like::after {
+  content: '';
+  background-image: url('../images/like-icon.png'); 
+ background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 66.67%;
+  right: 0%;
+  top: 20.83%;
+  bottom: 16.67%;
+}
+
+.top-place__comment {
+  position: absolute;
+  left: 81.63%;
+  right: 7.65%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.top-place__comment::after {
+  content: '';
+  background-image: url('../images/comment-icon.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 66.67%;
+  right: 0%;
+  top: 20.83%;
+  bottom: 16.67%;
+}
+
+.top-place__des {
+  position: absolute;
+  height: 72px;
+  top: 74.427%;
+  overflow: hidden;
+  color: var(--primary-color);
+}
+
+.btn--see-more {
+  position: absolute;
+  top: 92.593%;
+  height: 42px;
+  width: 118px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--secondary-color);
+}
