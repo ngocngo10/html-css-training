@@ -13,109 +13,252 @@
 <body>
   <header class="page-header">
     <nav class="header-nav">
-      <a href="#" class="header-nav__brand">
-        <img src="./assets/images/header-logo.png" alt="headerLogo">
-      </a>
-      <ul class="header-nav__menu">
-        <li class="header-nav__item"><a href="javascript:void(0)">Articles</a></li>
-        <li class="header-nav__item"><a href="javascript:void(0)">Locations</a></li>
-        <li class="header-nav__item"><a href="javascript:void(0)">Video</a></li>
-        <li class="header-nav__item"><a href="javascript:void(0)">Sign in</a></li>
-      </ul>
+      <div class="container">
+        <h1 class="header-nav__brand">
+          <a href="javascript:void(0)" class="header__logo">
+            <img src="./assets/images/header-logo.png" alt="Logo">
+          </a>
+        </h1>
+        <ul class="header-nav__menu">
+          <li class="header-nav__item"><a href="javascript:void(0)">Articles</a></li>
+          <li class="header-nav__item"><a href="javascript:void(0)">Locations</a></li>
+          <li class="header-nav__item"><a href="javascript:void(0)">Videos</a></li>
+          <li class="header-nav__item"><a href="javascript:void(0)">Sign in</a></li>
+        </ul>
+      </div>
     </nav>
-    <h1>
-      Discover Amazing places in Japan</h1>
-    <p>
-      Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.
-      Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child,
-      open the door,
-    </p>
-    <form class="search-group" action="javascript:void(0)" method="post">
-      <div class="search-item search-item--what">
-        <input class="search-item__radio" type="radio" id="what-radio" name="radio">
-        <label for="what-radio">What would you like to do?</label>
-        <input class="search-item__text" type="text" name="what-text" id="what-text">
+    <div class="header-bottom">
+      <div class="container">
+        <h2 class="header__title">
+          Discover Amazing places in Japan</h2>
+        <p class="header__desc">
+          Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with
+          belly
+          side up i could pee on this if i had the energy but under the bed, for attack the child, open the door,
+        </p>
+        <form class="search-group" action="javascript:void(0)" method="post">
+          <div class="search-item search-item--what">
+            <input class="search-item__radio" type="radio" id="what-radio" name="radio">
+            <label for="what-radio">What would you like to do?</label>
+            <input class="search-item__text" type="text" name="what-text" id="what-text">
+          </div>
+          <div class="search-item search-item--where">
+            <input class="search-item__radio" type="radio" id="where-radio" name="radio">
+            <label for="where-radio">Where would you like to go?</label>
+            <input class="search-item__text" type="text" name="what-text" id="what-text">
+          </div>
+          <button type="submit" class="btn btn--search">Search</button>
+        </form>
       </div>
-      <div class="search-item search-item--where">
-        <input class="search-item__radio" type="radio" id="where-radio" name="radio">
-        <label for="where-radio">Where would you like to go?</label>
-        <input class="search-item__text" type="text" name="what-text" id="what-text">
-      </div>
-      <button type="submit" class="btn btn--search">Search</button>
-    </form>
+    </div>
   </header>
-  <main class="page-main">
+  <main class="page-content">
     <section class="section-benefits">
-      <h2 class="section__title">Benefits of Odigo</h2>
-      <ul class="benefit__list">
-        <li class="benefit__item">
-          <img class="benefit__icon" src="./assets/images/benefits-welcome-icon.png" alt="benefits-welcome-icon">
-          <h3>Welcome to Odigo!</h3>
-          <div class="benefit-des">
-            <p>Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>
-          </div>
-          <a class="benefit-learn-more" href="javascript:void(0)">
-            <span class="link-content">Learn more</span>
-            <img class="link-icon" src="./assets/images/arrow-icon.png" alt="arrow-icon">
-          </a>
-        </li>
-        <li class="benefit__item">
-          <img class="benefit__icon" src="./assets/images/benefits-personal-icon.png" alt="benefits-welcome-icon">
-          <h3>Your Personal Japan Guide</h3>
-          <div class="benefit-des">
-            <p>Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>
-          </div>
-          <a class="benefit-learn-more" href="javascript:void(0)">
-            <span class="link-content">Learn more</span>
-            <img class="link-icon" src="./assets/images/arrow-icon.png" alt="arrow-icon">
-          </a>
-        </li>
-        <li class="benefit__item">
-          <img class="benefit__icon" src="./assets/images/benefits-promoting-icon.png" alt="benefits-welcome-icon">
-          <h3>Promoting Local Businesses</h3>
-          <div class="benefit-des">
-            <p>Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>
-          </div>
-          <a class="benefit-learn-more" href="javascript:void(0)">
-            <span class="link-content">Learn more</span>
-            <img class="link-icon" src="./assets/images/arrow-icon.png" alt="arrow-icon">
-          </a>
-        </li>
-      </ul>
+      <div class="container">
+        <div class="benefits-wrap">
+          <h2 class="section__title">Benefits of Odigo</h2>
+          <ul class="benefit__list">
+            <li class="benefit__item">
+              <img class="benefit__icon" src="./assets/images/benefits-welcome-icon.png" alt="benefits-welcome-icon">
+              <h3 class="benefit__item-title">Welcome to Odigo!</h3>
+              <p class="benefit-des">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come
+                over.</p>
+              <a class="benefit-learn-more" href="javascript:void(0)">
+                <span class="link-content">Learn more</span>
+                <img class="link-icon" src="./assets/images/arrow-icon.png" alt="arrow-icon">
+              </a>
+            </li>
+            <li class="benefit__item">
+              <img class="benefit__icon" src="./assets/images/benefits-personal-icon.png" alt="benefits-welcome-icon">
+              <h3 class="benefit__item-title">Your Personal Japan Guide</h3>
+              <p class="benefit-des">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come
+                over.</p>
+              <a class="benefit-learn-more" href="javascript:void(0)">
+                <span class="link-content">Learn more</span>
+                <img class="link-icon" src="./assets/images/arrow-icon.png" alt="arrow-icon">
+              </a>
+            </li>
+            <li class="benefit__item">
+              <img class="benefit__icon" src="./assets/images/benefits-promoting-icon.png" alt="benefits-welcome-icon">
+              <h3 class="benefit__item-title">Promoting Local Businesses</h3>
+              <p class="benefit-des">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come
+                over.</p>
+              <a class="benefit-learn-more" href="javascript:void(0)">
+                <span class="link-content">Learn more</span>
+                <img class="link-icon" src="./assets/images/arrow-icon.png" alt="arrow-icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
     <section class="inspired-section">
-      <h2 class="inspired__title">Get inspired for your next trip</h2>
-      <a class="inspired-view-all" href="javascript:void(0)">
-        <span class="link-content">View all</span>
-        <img class="link-icon" src="./assets/images/arrow-icon.png" alt="arrow-icon">
-      </a>
-      <div class="inspired__line"></div>
-      <ul class="inspired__list">
-        <li class="inspired__item ">
-          <img src="./assets/images/inspired-mount-fuji.png" alt="">
-          <span class="inspired__img-title  inspired__img-title--row1">Mount Fuji</span>
-        </li>
-        <li class="inspired__item">
-          <img src="./assets/images/inspired-kyoto.png" alt="">
-          <span class="inspired__img-title inspired__img-title--row1">Kyoto</span>
-        </li>
-        <li class="inspired__item">
-          <img src="./assets/images/inspired-tokyo.png" alt="">
-          <span class="inspired__img-title inspired__img-title--row2">Tokyo</span>
-        </li>
-        <li class="inspired__item">
-          <img src="./assets/images/inspired-niigata.png" alt="">
-          <span class="inspired__img-title inspired__img-title--row2">Niigata</span>
-        </li>
-        <li class="inspired__item">
-          <img src="./assets/images/inspired-sapporo.png" alt="">
-          <span class="inspired__img-title inspired__img-title--row2">Sapporo</span>
-        </li>
-      </ul>
+      <div class="container">
+        <div class="inspired-header">
+          <h2 class="inspired__title">Get inspired for your next trip</h2>
+          <a class="inspired-view-all" href="javascript:void(0)">
+            <span class="link-content">View all</span>
+            <img class="link-icon" src="./assets/images/arrow-icon.png" alt="arrow-icon">
+          </a>
+        </div>
+        <ul class="inspired__list">
+          <li class="inspired__item">
+            <a href="javascript:void(0)">
+              <img src="./assets/images/inspired-mount-fuji.png" alt="">
+              <span class="inspired__img-title  inspired__img-title--row1">Mount Fuji</span>
+            </a>
+          </li>
+          <li class="inspired__item">
+            <a href="javascript:void(0)">
+              <img src="./assets/images/inspired-kyoto.png" alt="">
+              <span class="inspired__img-title inspired__img-title--row1">Kyoto</span>
+            </a>
+          </li>
+          <li class="inspired__item">
+            <a href="javascript:void(0)">
+              <img src="./assets/images/inspired-tokyo.png" alt="">
+              <span class="inspired__img-title inspired__img-title--row2">Tokyo</span>
+            </a>
+          </li>
+          <li class="inspired__item">
+            <a href="javascript:void(0)">
+              <img src="./assets/images/inspired-niigata.png" alt="">
+              <span class="inspired__img-title inspired__img-title--row2">Niigata</span>
+            </a>
+          </li>
+          <li class="inspired__item">
+            <a href="javascript:void(0)">
+              <img src="./assets/images/inspired-sapporo.png" alt="">
+              <span class="inspired__img-title inspired__img-title--row2">Sapporo</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
-
+    <section class="prefecture-neighborhood-section">
+      <div class="container">
+        <div class="prefecture-box">
+          <img class="prefecture-neighborhood__image" src="./assets/images/prefecture.png" alt="">
+          <div class="prefecture-neighborhood-content">
+            <h3 class="prefecture-neighborhood__title">Prefecture in Focus: Tottori</h3>
+            <div class="prefecture-neighborhood__des">
+              <p>Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous
+                with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open
+                the door,</p>
+            </div>
+            <a class="prefecture__view" href="javascript:void(0)">
+              <span class="link-content">View prefecture</span>
+              <img class="link-icon" src="./assets/images/arrow-icon.png" alt="arrow-icon">
+            </a>
+          </div>
+        </div>
+        <div class="neighborhood-box">
+          <div class="prefecture-neighborhood-content">
+            <h3 class="prefecture-neighborhood__title">Featured Neighborhood: Kyoto’s Arashiyama</h3>
+            <div class="prefecture-neighborhood__des">
+              <p>Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous
+                with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open
+                the door,</p>
+            </div>
+            <a class="neighborhood__view" href="javascript:void(0)">
+              <span class="link-content">View neighborhood</span>
+              <img class="link-icon" src="./assets/images/arrow-icon.png" alt="arrow-icon">
+            </a>
+          </div>
+          <img class="prefecture-neighborhood__image" src="./assets/images/neighborhood.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="top-place-section">
+      <div class="container">
+        <h3 class="top-place__title">Today top places to visit</h3>
+        <ul class="top-place__list">
+          <li class="top-place__item">
+            <img class="top-place__img" src="./assets/images/nagoya.png" alt="">
+            <ul class="top-place__infor">
+              <li class="top-place__img-title">NAGOYA</li>
+              <li class="top-place__like">211</li>
+              <li class="top-place__comment">50</li>
+            </ul>
+            <p class="top-place__des">
+              Jump off balcony, onto stranger's head. Chase ball of string hide when guests come
+              over. Being gorgeous with belly side up i could pee on this.
+            </p>
+            <button class="btn btn--see-more" type="button">See more</button>
+          </li>
+          <li class="top-place__item">
+            <img class="top-place__img" src="./assets/images/niigata.png" alt="">
+            <ul class="top-place__infor">
+              <li class="top-place__img-title">NAGOYA</li>
+              <li class="top-place__like">211</li>
+              <li class="top-place__comment">50</li>
+            </ul>
+            <p class="top-place__des">
+              Jump off balcony, onto stranger's head. Chase ball of string hide when guests come
+              over. Being gorgeous with belly side up i could pee on this.
+            </p>
+            <button class="btn btn--see-more" type="button">See more</button>
+          </li>
+          <li class="top-place__item">
+            <img class="top-place__img" src="./assets/images/osaka.png" alt="">
+            <ul class="top-place__infor">
+              <li class="top-place__img-title">NAGOYA</li>
+              <li class="top-place__like">211</li>
+              <li class="top-place__comment">50</li>
+            </ul>
+            <p class="top-place__des">
+              Jump off balcony, onto stranger's head. Chase ball of string hide when guests come
+              over. Being gorgeous with belly side up i could pee on this.
+            </p>
+            <button class="btn btn--see-more" type="button">See more</button>
+          </li>
+          <li class="top-place__item">
+            <img class="top-place__img" src="./assets/images/saitama.png" alt="">
+            <ul class="top-place__infor">
+              <li class="top-place__img-title">NAGOYA</li>
+              <li class="top-place__like">211</li>
+              <li class="top-place__comment">50</li>
+            </ul>
+            <p class="top-place__des">
+              Jump off balcony, onto stranger's head. Chase ball of string hide when guests come
+              over. Being gorgeous with belly side up i could pee on this.
+            </p>
+            <button class="btn btn--see-more" type="button">See more</button>
+          </li>
+          <li class="top-place__item">
+            <img class="top-place__img" src="./assets/images/ueno.png" alt="">
+            <ul class="top-place__infor">
+              <li class="top-place__img-title">NAGOYA</li>
+              <li class="top-place__like">211</li>
+              <li class="top-place__comment">50</li>
+            </ul>
+            <p class="top-place__des">
+              Jump off balcony, onto stranger's head. Chase ball of string hide when guests come
+              over. Being gorgeous with belly side up i could pee on this.
+            </p>
+            <button class="btn btn--see-more" type="button">See more</button>
+          </li>
+          <li class="top-place__item">
+            <img class="top-place__img" src="./assets/images/shibuya.png" alt="">
+            <ul class="top-place__infor">
+              <li class="top-place__img-title">NAGOYA</li>
+              <li class="top-place__like">211</li>
+              <li class="top-place__comment">50</li>
+            </ul>
+            <p class="top-place__des">
+              Jump off balcony, onto stranger's head. Chase ball of string hide when guests come
+              over. Being gorgeous with belly side up i could pee on this.
+            </p>
+            <button class="btn btn--see-more" type="button">See more</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="video-section">
+      <img class="video__img" src="./assets/images/video.png" alt="Video">
+    </section>
   </main>
-  <footer class="page-footer">
+  <footer class="page-foot">
 
   </footer>
 </body>
