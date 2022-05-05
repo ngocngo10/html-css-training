@@ -66,3 +66,21 @@
 .top-place__list:nth-child(5) {
   grid-area: h5;
 }
+
+.top-place-infor {
+  position: absolute;
+  top: 56.79%;
+  height: 55px;
+  width: 100%;
+  background: rgba(21, 24, 36, 0.6);
+  color: var(--secondary-color);
+}
+
+.top-place__des {
+  position: absolute;
+  height: 72px;
+  top: 74.427%;
+  overflow: hidden;
+  color: var(--primary-color);
+}
+
