@@ -1,0 +1,60 @@
+.prefecture-neighborhood-section {
+  position: absolute;
+  max-width: 1440px;
+  width: 100%;
+  height: 784px;
+  top: 2391px;
+  color: var(--primary-color);
+}
+
+.prefecture-box {
+  margin: 0px 59px 0px 13px;
+  display: flex;
+  column-gap: 8.823%;
+}
+
+.prefecture-neighborhood__image {
+  width: 48.774%;
+  height: 100%;
+}
+
+.prefecture-neighborhood-content {
+  width: 42.203%;
+  height: 100%;
+}
+
+.prefecture-neighborhood__title {
+  margin-top: 26px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.prefecture-neighborhood__des {
+  margin-top: 85px;
+  height: 72px;
+  overflow: hidden;
+}
+
+.prefecture__view {
+  display: inline-block;
+  position: relative;
+  margin-top: 58px;
+  width: 203px;
+  height: 24px;
+}
+
+.neighborhood-box {
+  height: 354px;
+  margin: 76px 0px 0px 66px;
+  display: flex;
+  column-gap: 8.823%;
+}
+
+.neighborhood__view {
+  display: inline-block;
+  position: relative;
+  margin-top: 58px;
+  width: 293px;
+  height: 24px;
+}
