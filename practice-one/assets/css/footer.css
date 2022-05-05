@@ -38,6 +38,10 @@
   list-style-type: none;
 }
 
+.footer__link-list li {
+  margin-top: 3px;
+}
+
 .footer__link-list li a {
   text-decoration: none;
   color: inherit;
