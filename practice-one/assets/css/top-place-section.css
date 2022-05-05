@@ -34,7 +34,7 @@
   grid-template-areas:
     "h1 h2 h3"
     "h4 h5 h6";
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .top-place__item {
@@ -67,14 +67,67 @@
   grid-area: h5;
 }
 
-/* .top-place-infor {
+.top-place__infor {
   position: absolute;
+  display: flex;
   top: 56.79%;
   height: 55px;
   width: 100%;
+  padding: 16px 0px 15px 0px;
   background: rgba(21, 24, 36, 0.6);
   color: var(--secondary-color);
-} */
+  list-style-type: none;
+}
+
+.top-place__img-title {
+  position: absolute;
+  left: 6.63%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.top-place__like {
+  position: absolute;
+  left: 65.82%;
+  right: 21.94%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.top-place__like::after {
+  content: '';
+  background-image: url('../images/like-icon.png'); 
+ background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 66.67%;
+  right: 0%;
+  top: 20.83%;
+  bottom: 16.67%;
+}
+
+.top-place__comment {
+  position: absolute;
+  left: 81.63%;
+  right: 7.65%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.top-place__comment::after {
+  content: '';
+  background-image: url('../images/comment-icon.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 66.67%;
+  right: 0%;
+  top: 20.83%;
+  bottom: 16.67%;
+}
 
 .top-place__des {
   position: absolute;
@@ -85,14 +138,12 @@
 }
 
 .btn--see-more {
-  position:absolute;
+  position: absolute;
   top: 92.593%;
   height: 42px;
   width: 118px;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #FFFFFF;
-
+  color: var(--secondary-color);
 }
-
