@@ -35,10 +35,19 @@
 
 
 .inspired-view-all {
+<<<<<<< HEAD
+  display: inline-block;
+  float: right;
+  position: relative;
+  margin-right: 2px;
+  height: 24px;
+  width: 132px;
+=======
   position: relative;
   height: 24px;
   width: 132px;
   margin-top: 14px;
+>>>>>>> df393c048ef42be2352ca51223426261066f367d
   text-decoration: none;
   text-transform: uppercase;
   color: #006DFE;
