@@ -10,30 +10,28 @@
 }
 
 .header-nav {
-  height: 73px;
-  padding-top: 42px;
+  height: 31px;
+  margin-top: 42px;
+}
+
+.header-wrap {
+  padding: 0px 99px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-nav__brand {
-  display: inline-block;
-  padding-left: 119px;
-}
-
-.header__logo {
   width: 82px;
   height: 31px;
 }
 
 .header-nav__menu {
   float: right;
-  height: 31px;
-  padding-right: 95px;
   padding-top: 4px;
 }
 
 .header-nav__item {
   display: inline-block;
-  height: 31px;
   margin-left: 82px;
 }
 
