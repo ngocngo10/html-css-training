@@ -63,9 +63,10 @@
   top: 91.67%;
   height: 24px;
   width: 161px;
+  color: #006DFE;
 }
 
-.a:hover {
+a:hover {
   color: red;
 }
 
@@ -76,7 +77,6 @@
   top: calc(50% - 24px/2);
   text-transform: uppercase;
   text-decoration: none;
-  color: #006DFE;
 }
 
 .link-icon {
