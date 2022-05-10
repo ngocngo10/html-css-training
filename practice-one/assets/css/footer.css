@@ -1,15 +1,11 @@
 .page-footer {
-  position: absolute;
-  max-width: 1440px;
-  width: 100%;
   height: 370px;
-  top: 5366px;
   background: #0E1D28;
   color: var(--secondary-color);
 }
 
 .footer-wrap {
-  padding: 118px 7.330% 118px 9.414%;
+  padding: 118px 100.5px;
 }
 
 .footer__brand {
