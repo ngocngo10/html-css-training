@@ -1,46 +1,25 @@
-.parent {
+body {
   display: grid;
-  place-items: center;
-  background: lightblue;
-  width: 500px;
-  height: 500px;
-  
-  resize: both;
-  overflow: auto;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
-.child {
-  padding: 0.5rem;
-  border-radius: 10px;
-  border: 1px solid red;
+
+header {
   background: lightpink;
-  font-size: 2rem;
+  padding: 2rem;
+}
+
+main {
+  background: coral;
+}
+
+footer {
+  background: wheat;
+  padding: 2rem;
   text-align: center;
 }
 
 body {
-  font-family: system-ui, serif;
-}
-
-.parent-1 {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.child-1 {
-  /* //  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
-  //  If we don't want the items to stretch: */
-  flex: 0 1 300px;
-  /* //  If we do want the items to stretch: */
-  /* flex: 1 1 300px; */
-  
-  /* //   etc. */
-  border: 1px solid red;
-  background: lightpink;
-  font-size: 2rem;
-  text-align: center;
-}
-
-body {
-  font-family: system-ui, serif;
+  font-family: system-ui, sans-serif;
 }
