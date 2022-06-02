@@ -37,6 +37,12 @@ a {
   background-color: #4BA87D;
 }
 
+.btn--primary:hover {
+  border: 2px solid #000;
+  background-color: #fff;
+  color: #000;
+}
+
 .btn--secondary {
   color: #4BA87D;
   background-color: #FFFFFF;
@@ -58,18 +64,18 @@ a {
 
 @media screen and (min-width: 320px) {
   .container {
-    max-width: 720px;
+    max-width: 334px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 736px;
+    max-width: 766px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1240px;
+    max-width: 1270px;
   }
 }

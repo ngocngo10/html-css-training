@@ -12,22 +12,41 @@
 
 <body>
   <header class="header">
-    <!-- Logo -->
-    <a class="logo" href="javascript:void(0)">
-      <img src="./assets/images/NinjaMail-Logo.svg" alt="logo">
-    </a>
-    <!-- Hamburger icon -->
-    <input class="side-menu" type="checkbox" id="side-menu" />
-    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-    <nav class="nav">
-      <ul class="menu">
-        <li><a href="javascript:void(0)">Features</a></li>
-        <li><a href="javascript:void(0)">Pricing</a></li>
-        <li><a href="javascript:void(0)">Services</a></li>
-        <li><a href="javascript:void(0)">Partners</a></li>
-        <li><button class="btn btn--primary btn--sign-up">Sign up free</button></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <!-- Logo -->
+      <h1 class="header__brand">
+        <a class="logo" href="javascript:void(0)">
+          <img src="./assets/images/NinjaMail-Logo.svg" alt="logo">
+        </a>
+      </h1>
+      <!-- Nav PC -->
+      <nav class="header__nav-pc">
+        <ul class="nav-pc__menu">
+          <li><a href="javascript:void(0)">Features</a></li>
+          <li><a href="javascript:void(0)">Pricing</a></li>
+          <li><a href="javascript:void(0)">Services</a></li>
+          <li><a href="javascript:void(0)">Partners</a></li>
+        </ul>
+        <button class="btn btn--primary btn--sign-up">Sign up free</button>
+        <label for="nav-pc__input" class="nav-pc__btn">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </label>
+      </nav>
+      <input type="checkbox" hidden class="header-nav__input" name="nav-pc__input" id="nav-pc__input">
+      <label for="nav-pc__input" class="header-nav__overlay"></label>
+      <!-- Nav Mobile -->
+      <nav class="header__nav-mobile">
+        <label for="nav-pc__input" class="nav-mobile__close">
+          <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+        </label>
+        <ul class="nav-mobile__menu">
+          <li><a href="javascript:void(0)">Features</a></li>
+          <li><a href="javascript:void(0)">Pricing</a></li>
+          <li><a href="javascript:void(0)">Services</a></li>
+          <li><a href="javascript:void(0)">Partners</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main class="page-main">
   </main>
