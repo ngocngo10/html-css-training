@@ -12,7 +12,7 @@
 
 <body>
   <header class="header">
-    <div class="container">
+    <div class="header__container">
       <!-- Logo -->
       <h1 class="header__brand">
         <a class="logo" href="javascript:void(0)">
@@ -48,9 +48,31 @@
       </nav>
     </div>
   </header>
-  <main class="page-main">
+  <main class="main">
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-wrap">
+          <div class="hero__content">
+            <h2 class="section-title section-title--hero">Create Stunning Email Campaigns</h2>
+            <p class="text text--hero">Create and launch email campaigns that captivate
+              your customers in just a few clicks.</p>
+            <div class="hero-content__btn">
+              <button class="btn btn--primary btn--hero">Try now</button>
+              <button class="btn btn--secondary btn--hero ">Get a demo</button>
+            </div>
+          </div>
+          <picture class="hero__image">
+            <source media="(min-width:320px)" srcset="./assets/images/hero-photo-mobile.png">
+            <source media="(min-width:768px)" srcset="./assets/images/hero-photo-tablet.png">
+            <source media="(min-width:1440px)" srcset="./assets/images/hero-photo-mobile.png">
+            <img src="./assets/images/hero-photo-mobile.png" alt="Hero Photo" style="width:auto;">
+          </picture>
+        </div>
+      </div>
+    </section>
+
   </main>
-  <footer class="page-footer">
+  <footer class="footer">
 
   </footer>
   <script src="./javascript/index.js"></script>

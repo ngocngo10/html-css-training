@@ -1,12 +1,11 @@
 * {
   box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
@@ -22,11 +21,9 @@ a {
 }
 
 .btn {
-  border: none;
-  background: none;
   cursor: pointer;
   text-align: center;
-  font-family: 'Raleway ExtraBold';
+  font-family: 'Raleway Black';
   font-size: 11px;
   line-height: 13px;
   text-transform: uppercase;
@@ -35,10 +32,11 @@ a {
 .btn--primary {
   color: #FFFFFF;
   background-color: #4BA87D;
+  border: 3px solid #4BA87D;
 }
 
-.btn--primary:hover {
-  border: 2px solid #000;
+.btn:hover {
+  border: 3px solid #000;
   background-color: #fff;
   color: #000;
 }
@@ -46,7 +44,17 @@ a {
 .btn--secondary {
   color: #4BA87D;
   background-color: #FFFFFF;
-  border-color: #4BA87D;
+  border: 3px solid #4BA87D;
+}
+
+.section-title {
+  font-family: 'PlayfairDisplay Black';
+  color: #000000;
+}
+
+.text {
+  font-family: 'PlayfairDisplay Medium';
+  color: #000000;
 }
 
 /* body {
@@ -66,16 +74,30 @@ a {
   .container {
     max-width: 334px;
   }
+
+  .text {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 766px;
   }
+
+  .text {
+    font-size: 12px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1270px;
+  }
+
+  .text {
+    font-size: 19px;
+    line-height: 26px;
   }
 }
