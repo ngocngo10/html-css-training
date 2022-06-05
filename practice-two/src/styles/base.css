@@ -71,6 +71,17 @@ a {
 }
 
 @media screen and (min-width: 320px) {
+  .body {
+    background: #FFFFFF url(../assets/images/bgr-stuff-mobile.png);
+    height: 3483px;
+    background-position-y: top 350px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 100% 1625px;
+    background-position: 0 350px;
+
+  }
+
   .container {
     max-width: 334px;
   }
