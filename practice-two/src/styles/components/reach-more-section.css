@@ -32,3 +32,26 @@
     z-index: -1;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .reach-more-wrap {
+    height: 347px;
+    margin-top: 147px;
+    gap: 42px;
+  }
+
+  .section-title--reach-more {
+    width: 415px;
+    margin-top: 106px;
+    font-size: 38px;
+    line-height: 51px;
+  }
+
+  .btn--learn-how {
+    width: 132px;
+    height: 42px;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.65px;
+  }
+}
