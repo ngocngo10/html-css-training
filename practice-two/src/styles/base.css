@@ -106,6 +106,13 @@ a {
 }
 
 @media screen and (min-width: 1440px) {
+  .body {
+    height: 3932px;
+    background: #FFFFFF url(../assets/images/bgr-stuff-desktop.png) no-repeat;
+    background-size: 100% 2648px;
+    background-position: 0 96px;
+  }
+
   .container {
     max-width: 1270px;
   }
