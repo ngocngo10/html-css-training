@@ -62,3 +62,24 @@
     padding: 17px 28px 0 0;
   }
 }
+
+
+@media screen and (min-width: 768px) {
+  .source-wrap {
+    margin: 99px 0.5px 0 0.5px;
+    height: 348px;
+    flex-direction: row;
+  }
+
+  .source__list {
+    height: 100%;
+    width: 449px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .source__content {
+    align-self: flex-start;
+    margin-top: 90px;
+  }
+}
