@@ -1,0 +1,64 @@
+@media screen and (min-width:320px) {
+  .source-wrap {
+    margin: 33px 1.5px 0 1.5px;
+    height: 823px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .source__list {
+    height: 599px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .source__item {
+    width: 209px;
+    height: 294px;
+    background: #fff;
+  }
+
+  .source__list li:nth-of-type(2) {
+    align-self: flex-end;
+  }
+
+  .text--source {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .source__item p {
+    padding: 10px 25px 0px 20px;
+  }
+
+  .source-item__link {
+    display: inline-block;
+    margin: 1px 0 0 20px;
+    font-family: 'Raleway ExtraBold';
+    font-size: 12px;
+    line-height: 14px;
+    color: #4BA87D;
+  }
+
+  .source-item__link:hover {
+    color: black;
+  }
+
+  .source__content {
+    align-self: center;
+    width: 232px;
+    height: 206px;
+
+  }
+
+  .section-title--source {
+    font-size: 28px;
+    line-height: 31px;
+  }
+
+  .source__content p {
+    padding: 17px 28px 0 0;
+  }
+}

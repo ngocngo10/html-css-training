@@ -52,7 +52,7 @@ a {
 }
 
 .text {
-  font-family: 'PlayfairDisplay Medium';
+  font-family: 'Raleway Medium';
   color: #000000;
 }
 
@@ -80,11 +80,6 @@ a {
   .container {
     max-width: 334px;
   }
-
-  .text {
-    font-size: 14px;
-    line-height: 16px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -98,10 +93,6 @@ a {
   .container {
     max-width: 741px;
   }
-
-  .text {
-    font-size: 12px;
-  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -114,10 +105,5 @@ a {
 
   .container {
     max-width: 1128px;
-  }
-
-  .text {
-    font-size: 19px;
-    line-height: 26px;
   }
 }

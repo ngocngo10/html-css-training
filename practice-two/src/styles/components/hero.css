@@ -19,6 +19,8 @@
   .text--hero {
     margin-top: 98px;
     width: 290px;
+    font-size: 14px;
+    line-height: 16px;
   }
 
   .hero-content__btn {
@@ -67,6 +69,8 @@
   .text--hero {
     margin-top: 17px;
     width: 282px;
+    font-size: 19px;
+    line-height: 26px;
   }
 
   .hero-content__btn {
