@@ -4,6 +4,10 @@
     width: 100%;
   }
 
+  .header__container {
+    padding: 0 13px;
+  }
+
   .header__brand {
     display: inline-block;
     margin-top: 9px;
@@ -100,6 +104,11 @@
     height: 66px;
   }
 
+  .header__container {
+    padding: 0 16px;
+  }
+
+
   .header__brand {
     display: inline-block;
     margin-top: 13px;
@@ -147,6 +156,10 @@
 @media screen and (min-width: 1440px) {
   .header {
     height: 102px;
+  }
+
+  .header__container {
+    padding: 0 100px;
   }
 
   .header__brand {

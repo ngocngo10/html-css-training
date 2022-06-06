@@ -9,3 +9,15 @@
   src: url('../assets/fonts/raleway/Raleway/static/Raleway-ExtraBold.ttf');
   /* font-weight: 800; */
 }
+
+@font-face {
+  font-family: "PlayfairDisplay Black";
+  src: url('../assets/fonts/playfair-display/Playfair_Display/static/PlayfairDisplay-Black.ttf');
+  /* font-weight: 900; */
+}
+
+@font-face {
+  font-family: "PlayfairDisplay Medium";
+  src: url('../assets/fonts/raleway/Raleway/static/Raleway-Medium.ttf');
+  /* font-weight: 500; */
+}
