@@ -80,7 +80,8 @@
     color: #000000;
   }
 
-  .text--form {
+  .form__notifi {
+    font-family: 'Raleway Medium';
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.6px;
@@ -100,17 +101,12 @@
   .learn-how-wrap {
     margin: 87px 1.5px 0;
     height: 345px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between; */
   }
 
   .image-list {
-    /* display: flex; */
     display: flex;
     width: 100%;
-    height: 223px;
+    height: 157px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -118,14 +114,14 @@
 
   .section-title--learn-how {
     width: 591px;
-    margin-top: 0px;
+    margin-top: 25px;
     font-size: 28px;
   }
 
   .form {
     width: 436px;
     height: 70px;
-    margin-top: 0px;
+    margin-top: 21px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -138,29 +134,15 @@
   }
 
   .form__input::placeholder {
-    position: absolute;
-    left: 14px;
-    top: 13px;
-    font-family: 'Raleway Medium';
+    left: 16px;
+    top: 12px;
+  }
+
+  .form__notifi {
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 0.65px;
-    color: #000000;
-  }
-
-  .text--form {
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.6px;
-    color: #4BA87D;
     order: 2;
   }
 
-  .btn--form {
-    width: 144px;
-    height: 42px;
-    font-size: 13px;
-    line-height: 15px;
-    letter-spacing: 0.65px;
-  }
 }
