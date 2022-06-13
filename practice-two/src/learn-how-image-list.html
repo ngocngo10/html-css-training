@@ -1,0 +1,13 @@
+<ul class="image-list">
+  <for loop="item in [{title: 'Frankie', desc: 'Member since 2016', imagedesktop: './assets/images/frankie-desktop.png',  imagemobile: './assets/images/frankie-mobile.png'}, {title: 'Camile', desc: 'Member since 2013', imagedesktop: './assets/images/camile-desktop.png',  imagemobile: './assets/images/camile-mobile.png'}, {title: 'Elayne', desc: 'Member since 2018', imagedesktop: './assets/images/elayne-desktop.png',  imagemobile: './assets/images/elayne-mobile.png'}]">
+    <li>
+      <picture class="image__photo">
+        <source media="(min-width: 1440px)" srcset="{{item.imagedesktop}}">
+        <source media="(min-width: 320px)" srcset="{{item.imagemobile}}">
+        <img src="" alt="Learn How Image" style="width:auto;">
+      </picture>
+      <h3 class="image__title">{{item.title}}</h3>
+      <p class="image__desc">{{item.desc}}</p>
+    </li>
+  </for>
+</ul> 

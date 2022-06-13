@@ -1,0 +1,35 @@
+{
+  "name": "html-css-training-practice-two",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "remove-dist": "rm -rf dist",
+    "posthtml": "posthtml ./learn-how-image-list.html && posthtml ./index.html",
+    "coppy-assets": "mkdir \"dist/assets\" && cp -R \"./src/assets\" \"./dist/\"",
+    "coppy-styles": "mkdir \"dist/styles\" && cp -R \"./src/styles\" \"./dist/\"",
+    "build": "concurrently --max-processes=1 \"npm:remove-dist\" \"npm:coppy-assets\" \"npm:coppy-styles\" \"npm:posthtml\"",
+    "start": "open-cli ./dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngothingoc10/html-css-training.git"
+  },
+  "author": "Ngoc Ngo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngothingoc10/html-css-training/issues"
+  },
+  "homepage": "https://github.com/ngothingoc10/html-css-training#readme",
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "open-cli": "^7.0.1",
+    "posthtml-cli": "^0.10.0",
+    "posthtml-expressions": "^1.9.0",
+    "posthtml-include": "^1.7.4"
+  },
+  "dependencies": {
+    "concurrently": "^7.2.1"
+  }
+}
