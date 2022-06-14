@@ -35,7 +35,7 @@
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 1.3px;
-    border: 3px solid #4BA87D;
+    border: 3px solid var(--secondary-color);
   }
 
   .hero__image {

@@ -18,7 +18,7 @@
 
   .image-list li {
     position: relative;
-    color: #FFFFFF;
+    color: var(--third-color);
   }
 
   .image__title {
@@ -75,7 +75,7 @@
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 0.65px;
-    color: #000000;
+    color: var(--primary-color);
   }
 
   .form__notifi {
@@ -83,7 +83,7 @@
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.6px;
-    color: #4BA87D;
+    color: var(--secondary-color);
   }
 
   .btn--form {

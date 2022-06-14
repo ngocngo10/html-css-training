@@ -72,7 +72,7 @@
     bottom: 0;
     width: 50%;
     max-width: 100%;
-    background-color: #CAEAC7;
+    background-color: var(--secondary-color);
     transform: translateX(100%);
     animation: transform linear 0.1s;
     z-index: 1000;
@@ -96,7 +96,7 @@
   }
 
   .nav-mobile__menu li a:hover {
-    color: #fff;
+    color: var(--third-color);
   }
 }
 
@@ -130,7 +130,7 @@
 
   .nav-pc__menu li {
     width: 71px;
-    border-bottom: 3px solid #4BA87D;
+    border-bottom: 3px solid var(--secondary-color);
     text-align: center;
   }
 
@@ -141,12 +141,12 @@
     font-size: 11px;
     line-height: 13px;
     letter-spacing: 0.825px;
-    color: #000000;
+    color: var(--primary-color);
     text-transform: uppercase;
   }
 
   .nav-pc__menu li:hover {
-    background-color: #4BA87D;
+    background-color: var(--secondary-color);
   }
 
   .btn--sign-up {
@@ -186,7 +186,7 @@
 
   .nav-pc__menu li {
     width: 110px;
-    border-bottom: 5px solid #4BA87D;
+    border-bottom: 5px solid var(--secondary-color);
   }
 
   .nav-pc__menu li a {

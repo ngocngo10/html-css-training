@@ -17,7 +17,7 @@
   .source__item {
     width: 209px;
     height: 294px;
-    background: #fff;
+    background: var(--third-color);
   }
 
   .source__list li:nth-of-type(2) {
@@ -39,11 +39,11 @@
     font-family: 'Raleway ExtraBold';
     font-size: 12px;
     line-height: 14px;
-    color: #4BA87D;
+    color: var(--secondary-color);
   }
 
   .source-item__link:hover {
-    color: black;
+    color: var(--primary-color);
   }
 
   .source__content {
