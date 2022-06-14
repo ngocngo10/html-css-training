@@ -20,10 +20,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #4BA87D;
-}
-
 .btn {
   cursor: pointer;
   text-align: center;
