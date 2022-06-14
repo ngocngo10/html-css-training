@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #4BA87D;
+}
+
 .btn {
   cursor: pointer;
   text-align: center;
@@ -66,7 +70,7 @@ a {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 @media screen and (min-width: 320px) {
@@ -78,7 +82,7 @@ a {
   }
 
   .container {
-    max-width: 334px;
+    max-width: 304px;
   }
 }
 
@@ -91,7 +95,7 @@ a {
   }
 
   .container {
-    max-width: 741px;
+    max-width: 711px;
   }
 }
 
@@ -104,6 +108,6 @@ a {
   }
 
   .container {
-    max-width: 1128px;
+    max-width: 1098px;
   }
 }
