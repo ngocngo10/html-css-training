@@ -71,7 +71,6 @@ a {
 
 @media screen and (min-width: 320px) {
   .body {
-    height: 3483px;
     background: #FFFFFF url(../assets/images/bgr-stuff-mobile.png) no-repeat;
     background-size: 100% 1625px;
     background-position: 0 350px;
@@ -84,7 +83,6 @@ a {
 
 @media screen and (min-width: 768px) {
   .body {
-    height: 2565px;
     background: #FFFFFF url(../assets/images/bgr-stuff-tablet.png) no-repeat;
     background-size: 100% 1705px;
     background-position: 0 86px;
@@ -97,7 +95,6 @@ a {
 
 @media screen and (min-width: 1440px) {
   .body {
-    height: 3932px;
     background: #FFFFFF url(../assets/images/bgr-stuff-desktop.png) no-repeat;
     background-size: 100% 2648px;
     background-position: 0 96px;
