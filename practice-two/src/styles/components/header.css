@@ -119,13 +119,15 @@
 
   .header__nav-pc {
     height: 25px;
+    width: 443px;
     margin-top: 18px;
-    gap: 16px;
+    justify-content: space-between;
   }
 
   .nav-pc__menu {
     display: flex;
-    gap: 11px;
+    width: 317px;
+    justify-content: space-between;
   }
 
   .nav-pc__menu li {
@@ -175,13 +177,15 @@
 
   .header__nav-pc {
     height: 41px;
+    width: 698px;
     margin-top: 28px;
-    gap: 24px;
+    /* gap: 24px; */
   }
 
   .nav-pc__menu {
     display: flex;
-    gap: 22px;
+    width: 506px;
+    /* gap: 22px; */
   }
 
   .nav-pc__menu li {
