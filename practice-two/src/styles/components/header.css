@@ -23,10 +23,10 @@
   .header__nav-pc {
     float: right;
     display: flex;
-    gap: 15px;
+    justify-content: space-between;
+    width: 127px;
     margin-top: 15px;
     height: 25px;
-
   }
 
   .nav-pc__menu {
@@ -72,9 +72,10 @@
     bottom: 0;
     width: 50%;
     max-width: 100%;
-    background-color: #CAEAC7;
+    background-color: var(--secondary-color);
     transform: translateX(100%);
     animation: transform linear 0.1s;
+    z-index: 1000;
   }
 
   .nav-mobile__close {
@@ -95,7 +96,7 @@
   }
 
   .nav-mobile__menu li a:hover {
-    color: #fff;
+    color: var(--third-color);
   }
 }
 
@@ -118,18 +119,20 @@
 
   .header__nav-pc {
     height: 25px;
+    width: 443px;
     margin-top: 18px;
-    gap: 16px;
+    justify-content: space-between;
   }
 
   .nav-pc__menu {
     display: flex;
-    gap: 11px;
+    width: 317px;
+    justify-content: space-between;
   }
 
   .nav-pc__menu li {
     width: 71px;
-    border-bottom: 3px solid #4BA87D;
+    border-bottom: 3px solid var(--secondary-color);
     text-align: center;
   }
 
@@ -140,8 +143,12 @@
     font-size: 11px;
     line-height: 13px;
     letter-spacing: 0.825px;
-    color: #000000;
+    color: var(--primary-color);
     text-transform: uppercase;
+  }
+
+  .nav-pc__menu li:hover {
+    background-color: var(--secondary-color);
   }
 
   .btn--sign-up {
@@ -170,18 +177,19 @@
 
   .header__nav-pc {
     height: 41px;
+    width: 698px;
     margin-top: 28px;
-    gap: 24px;
+    /* gap: 24px; */
   }
 
   .nav-pc__menu {
     display: flex;
-    gap: 22px;
+    width: 506px;
   }
 
   .nav-pc__menu li {
     width: 110px;
-    border-bottom: 5px solid #4BA87D;
+    border-bottom: 5px solid var(--secondary-color);
   }
 
   .nav-pc__menu li a {

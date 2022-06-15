@@ -30,30 +30,40 @@ a {
 }
 
 .btn--primary {
-  color: #FFFFFF;
-  background-color: #4BA87D;
-  border: 3px solid #4BA87D;
+  color: var(--third-color);
+  background-color: var(--secondary-color);
+  border: 3px solid var(--secondary-color);
 }
 
 .btn:hover {
-  border: 3px solid #000;
-  background-color: #fff;
-  color: #000;
+  border: 3px solid var(--primary-color);
+  background-color: var(--third-color);
+  color: var(--primary-color);
 }
 
 .btn--secondary {
-  color: #4BA87D;
-  background-color: #FFFFFF;
+  color: var(--secondary-color);
+  background-color: var(--third-color);
 }
 
 .section-title {
   font-family: 'PlayfairDisplay Black';
-  color: #000000;
+  color: var(--primary-color);
+  display: -webkit-box;
+  /* -webkit-line-clamp: 3; */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .text {
   font-family: 'Raleway Medium';
-  color: #000000;
+  color: var(--primary-color);
+  display: -webkit-box;
+  /* -webkit-line-clamp: 3; */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* body {
@@ -66,44 +76,41 @@ a {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 @media screen and (min-width: 320px) {
   .body {
-    height: 3483px;
-    background: #FFFFFF url(../assets/images/bgr-stuff-mobile.png) no-repeat;
+    background: var(--third-color) url(../assets/images/bgr-stuff-mobile.png) no-repeat;
     background-size: 100% 1625px;
     background-position: 0 350px;
   }
 
   .container {
-    max-width: 334px;
+    max-width: 304px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .body {
-    height: 2565px;
-    background: #FFFFFF url(../assets/images/bgr-stuff-tablet.png) no-repeat;
+    background: var(--third-color) url(../assets/images/bgr-stuff-tablet.png) no-repeat;
     background-size: 100% 1705px;
     background-position: 0 86px;
   }
 
   .container {
-    max-width: 741px;
+    max-width: 711px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .body {
-    height: 3932px;
-    background: #FFFFFF url(../assets/images/bgr-stuff-desktop.png) no-repeat;
+    background: var(--third-color) url(../assets/images/bgr-stuff-desktop.png) no-repeat;
     background-size: 100% 2648px;
     background-position: 0 96px;
   }
 
   .container {
-    max-width: 1128px;
+    max-width: 1098px;
   }
 }

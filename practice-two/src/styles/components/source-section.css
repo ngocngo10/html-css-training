@@ -17,7 +17,7 @@
   .source__item {
     width: 209px;
     height: 294px;
-    background: #fff;
+    background: var(--third-color);
   }
 
   .source__list li:nth-of-type(2) {
@@ -27,6 +27,7 @@
   .text--source {
     font-size: 12px;
     line-height: 16px;
+    -webkit-line-clamp: 5;
   }
 
   .source__item p {
@@ -39,11 +40,11 @@
     font-family: 'Raleway ExtraBold';
     font-size: 12px;
     line-height: 14px;
-    color: #4BA87D;
+    color: var(--secondary-color);
   }
 
   .source-item__link:hover {
-    color: black;
+    color: var(--primary-color);
   }
 
   .source__content {
@@ -56,6 +57,7 @@
   .section-title--source {
     font-size: 28px;
     line-height: 31px;
+    -webkit-line-clamp: 3;
   }
 
   .source__content p {

@@ -14,6 +14,7 @@
     font-size: 36px;
     line-height: 46px;
     width: 284px;
+    -webkit-line-clamp: 3;
   }
 
   .text--hero {
@@ -21,6 +22,7 @@
     width: 290px;
     font-size: 14px;
     line-height: 16px;
+    -webkit-line-clamp: 2;
   }
 
   .hero-content__btn {
@@ -35,7 +37,7 @@
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 1.3px;
-    border: 3px solid #4BA87D;
+    border: 3px solid var(--secondary-color);
   }
 
   .hero__image {
@@ -64,13 +66,13 @@
   .section-title--hero {
     font-size: 38px;
     width: 315px;
+    -webkit-line-clamp: 2;
   }
 
   .text--hero {
     margin-top: 17px;
     width: 282px;
-    font-size: 19px;
-    line-height: 26px;
+    font-size: 12px;
   }
 
   .hero-content__btn {
@@ -119,6 +121,8 @@
   .text--hero {
     margin: 23px 43px 0px 0px;
     width: 446px;
+    font-size: 19px;
+  line-height: 26px;
   }
 
   .hero-content__btn {

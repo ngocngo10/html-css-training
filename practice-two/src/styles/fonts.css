@@ -21,3 +21,9 @@
   src: url('../assets/fonts/raleway/Raleway/static/Raleway-Medium.ttf');
   /* font-weight: 500; */
 }
+
+@font-face {
+  font-family: "Raleway Bold";
+  src: url('../assets/fonts/raleway/Raleway/static/Raleway-Bold.ttf');
+  /* font-weight: 700; */
+}
