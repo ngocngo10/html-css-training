@@ -24,13 +24,12 @@
     align-content: space-between;
     flex-wrap: wrap;
     height: 215px;
-    gap: 7px;
   }
 
   .footer-top__link-item {
     display: flex;
     flex-direction: column;
-    gap: 7px;
+
   }
 
   .footer-top__link-item a {
@@ -38,6 +37,7 @@
     font-size: 12px;
     line-height: 14px;
     color: var(--primary-color);
+    margin-bottom: 7px;
   }
 
   .footer-top__link-item a:hover {
@@ -103,7 +103,6 @@
   .footer-top__link-item {
     display: flex;
     flex-direction: column;
-    gap: 7px;
   }
 
   .footer-bottom {
@@ -145,13 +144,10 @@
     height: 199.86px;
   }
 
-  .footer-top__link-item {
-    gap: 10px;
-  }
-
   .footer-top__link-item a {
     font-size: 19px;
     line-height: 22px;
+    margin-bottom: 10px;
   }
 
   .footer-bottom {
