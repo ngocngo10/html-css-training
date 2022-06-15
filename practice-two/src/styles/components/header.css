@@ -23,10 +23,10 @@
   .header__nav-pc {
     float: right;
     display: flex;
-    gap: 15px;
+    justify-content: space-between;
+    width: 127px;
     margin-top: 15px;
     height: 25px;
-
   }
 
   .nav-pc__menu {
@@ -185,7 +185,6 @@
   .nav-pc__menu {
     display: flex;
     width: 506px;
-    /* gap: 22px; */
   }
 
   .nav-pc__menu li {
