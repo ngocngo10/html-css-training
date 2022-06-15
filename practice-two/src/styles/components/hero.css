@@ -121,6 +121,8 @@
   .text--hero {
     margin: 23px 43px 0px 0px;
     width: 446px;
+    font-size: 19px;
+  line-height: 26px;
   }
 
   .hero-content__btn {
