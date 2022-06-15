@@ -29,6 +29,11 @@
     font-family: 'Raleway Black';
     font-size: 22px;
     line-height: 26px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .image__desc {
@@ -39,6 +44,11 @@
     font-family: 'Raleway Bold';
     font-size: 12px;
     line-height: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .section-title--learn-how {
@@ -47,6 +57,7 @@
     font-size: 26px;
     line-height: 36px;
     text-align: center;
+    -webkit-line-clamp: 4;
   }
 
   .form {
@@ -114,6 +125,7 @@
     width: 591px;
     margin-top: 25px;
     font-size: 28px;
+    -webkit-line-clamp: 2;
   }
 
   .form {

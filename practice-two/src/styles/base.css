@@ -49,11 +49,21 @@ a {
 .section-title {
   font-family: 'PlayfairDisplay Black';
   color: var(--primary-color);
+  display: -webkit-box;
+  /* -webkit-line-clamp: 3; */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .text {
   font-family: 'Raleway Medium';
   color: var(--primary-color);
+  display: -webkit-box;
+  /* -webkit-line-clamp: 3; */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* body {

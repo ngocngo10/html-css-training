@@ -27,6 +27,7 @@
   .text--source {
     font-size: 12px;
     line-height: 16px;
+    -webkit-line-clamp: 5;
   }
 
   .source__item p {
@@ -56,6 +57,7 @@
   .section-title--source {
     font-size: 28px;
     line-height: 31px;
+    -webkit-line-clamp: 3;
   }
 
   .source__content p {

@@ -21,6 +21,7 @@
     line-height: 48px;
     text-align: center;
     color: var(--third-color);
+    -webkit-line-clamp: 2;
   }
 
   .btn--get-started {
@@ -48,6 +49,7 @@
   .section-title--get-started {
     width: 617px;
     line-height: 56px;
+    -webkit-line-clamp: 1;
   }
 }
 
