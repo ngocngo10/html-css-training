@@ -26,6 +26,7 @@
 > cd html-css-training
 * Pull branch:
 > git pull origin practice-two
+* Change the path to the practice two folder
 > cd practice-two
 * Install npm
 > npm install
