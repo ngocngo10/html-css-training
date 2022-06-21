@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+.picture-image {
+  width: 100%;
+}
+
 .btn {
   cursor: pointer;
   text-align: center;

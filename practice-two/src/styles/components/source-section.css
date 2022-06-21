@@ -24,6 +24,9 @@
     width: 209px;
     height: 166px;
     display: inline-block;
+    background-image: url(../../assets/images/placeholder-image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 
   .source__list li:nth-of-type(2) {
@@ -70,7 +73,6 @@
     padding: 17px 28px 0 0;
   }
 }
-
 
 @media screen and (min-width: 768px) {
   .source-wrap {
