@@ -27,6 +27,7 @@ a {
   font-size: 11px;
   line-height: 13px;
   text-transform: uppercase;
+  border-radius: 0;
 }
 
 .btn--primary {
@@ -80,6 +81,7 @@ a {
 
   .container {
     max-width: 304px;
+    padding: 0;
   }
 
   .header-container {
