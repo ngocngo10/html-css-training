@@ -20,6 +20,15 @@
     background: var(--third-color);
   }
 
+  .soure-item__image {
+    width: 209px;
+    height: 166px;
+    display: inline-block;
+    background-image: url(../../assets/images/placeholder-image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
   .source__list li:nth-of-type(2) {
     align-self: flex-end;
   }
@@ -65,7 +74,6 @@
   }
 }
 
-
 @media screen and (min-width: 768px) {
   .source-wrap {
     margin: 99px 0.5px 0 0.5px;
@@ -100,6 +108,11 @@
   .source__item {
     width: 320px;
     height: 449px;
+  }
+
+  .soure-item__image {
+    width: 320px;
+    height: 253px;
   }
 
   .text--source {
