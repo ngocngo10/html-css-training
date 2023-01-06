@@ -24,6 +24,9 @@
 > git clone https://github.com/ngothingoc10/html-css-training.git
 * Change the path to the folder you just cloned to your computer
 > cd html-css-training
+* Pull branch:
+> git pull origin practice-two
+* Change the path to the practice two folder
 > cd practice-two
 * Install npm
 > npm install

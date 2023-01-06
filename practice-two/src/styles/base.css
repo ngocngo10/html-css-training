@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+.picture-image {
+  width: 100%;
+}
+
 .btn {
   cursor: pointer;
   text-align: center;
@@ -27,6 +31,7 @@ a {
   font-size: 11px;
   line-height: 13px;
   text-transform: uppercase;
+  border-radius: 0;
 }
 
 .btn--primary {
@@ -66,17 +71,9 @@ a {
   text-overflow: ellipsis;
 }
 
-/* body {
-  font-size: 14px;
-  font-weight: 400;
-  color: #333;
-  background-color: #fff;
-} */
-
 .container {
   width: 100%;
   margin: 0 auto;
-  /* padding: 0 15px; */
 }
 
 @media screen and (min-width: 320px) {
@@ -88,6 +85,14 @@ a {
 
   .container {
     max-width: 304px;
+    padding: 0;
+  }
+
+  .header-container {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 13px;
   }
 }
 
@@ -101,6 +106,13 @@ a {
   .container {
     max-width: 711px;
   }
+
+  .header-container {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -112,5 +124,12 @@ a {
 
   .container {
     max-width: 1098px;
+  }
+
+  .header-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
   }
 }

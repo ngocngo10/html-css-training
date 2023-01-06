@@ -18,7 +18,12 @@
 
   .image-list li {
     position: relative;
+    width: 223px;
+    height: 157px;
     color: var(--third-color);
+    background-image: url(../../assets/images/placeholder-image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 
   .image__title {
@@ -170,6 +175,11 @@
     /* flex-direction: row;
     justify-content: space-between;
     align-items: center; */
+  }
+
+  .image-list li {
+    width: 342px;
+    height: 239px;
   }
 
   .image__title {
