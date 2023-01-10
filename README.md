@@ -86,7 +86,7 @@ Some keywords or things you should be know below:
 - Images responsive
 ### PRACTICE TWO
 #### Overview
-- Design: // Update soon
+- Design: [here](https://www.figma.com/file/TbOEy0cgczhySv0RZP1Mdp/NinjaMail-(Community)?node-id=1%3A189&t=jWXgpt30m2lqaFww-0)
 - Timeline: 1 weeks ago
 #### Requirements
 - Use the right HTML Tags
