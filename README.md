@@ -2,7 +2,7 @@
 
 ## OVERVIEW
 This document will overview getting started with HTML/CSS. This plan is composed for a beginner who should be starting from scratch. For others, we should make a habit a bit to save time. After the course, the trainee should be able to make a webpage with an existing design from scratch.
-- Timeline: ~4 weeks (12/01/2022)
+- Timeline: ~4 weeks 
 
 ## REFERENCES
 - eBook [HTML/CSS - Design and build websites](https://drive.google.com/open?id=0B8qLV3MMnCELODc3Y2tWRnZlTlU)
@@ -61,7 +61,7 @@ For layout, supporters should help trainees know about HTML semantics available 
 In this practice, supporters should help trainees know how to slice layouts/components from design. Besides, supporters should choose a design like 1-2 pages that have a base HTML structure. Not too fussy or have special drawings.
 #### Overview
 - Design: [odigo](https://www.figma.com/file/GEdIowP8MaUWaMRaArKe4W/travel-landing-page-jacobvoyles?node-id=0%3A1)
-- Timeline: 4 days (20/01/2022)
+- Timeline: 4 days 
 #### Requirements
 - Work fine on Chrome browser latest version
 - Use the right HTML Tags
